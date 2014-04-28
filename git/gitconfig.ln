@@ -1,32 +1,38 @@
-[core]
-  editor = vim
-  excludesfile = ~/.gitignore
-
 [user]
-  name = Tres Trantham
-  email = tres@trestrantham.com
-
+  name = Andrew Bredow
+  email = bredow@gmail.com
 [author]
-  name = Tres Trantham
-  email = tres@trestrantham.com
-
-[help]
-  autocorrect = 1
-
+  name = Andrew Bredow
+  email = bredow@gmail.com
+[github]
+  user = andrewbredow
 [color]
   ui = true
-
+[core]
+  excludesfile = /Users/andrew/.gitignore_global
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [alias]
-  ctags = !.git/hooks/ctags
-
-[github]
-  user = trestrantham
-
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  mt = mergetool
+  rb = rebase
+[merge]
+  tool = diffmerge
+[mergetool "diffmerge"]
+  cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
+  trustExitCode = true
+[diff]
+  tool = diffmerge
+[difftool "diffmerge"]
+  cmd = diffmerge $LOCAL $REMOTE
+[mergetool]
+  keepBackup = false
 [push]
-  default = current
-
-[web]
-  broswer = open
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+  default = upstream

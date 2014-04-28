@@ -11,7 +11,7 @@ brew tap jingweno/gh 2>/dev/null
 
 # Development
 install_formula ack
-install_formula bash-completion
+# install_formula bash-completion
 install_formula chruby
 install_formula coreutils
 install_formula findutils
@@ -27,7 +27,7 @@ install_formula postgresql
 install_formula qt # --HEAD
 install_formula reattach-to-user-namespace
 install_formula redis
-install_formula ruby-install
+install_formula ruby-build
 install_formula the_silver_searcher
 install_formula tmux
 

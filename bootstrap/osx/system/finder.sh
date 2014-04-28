@@ -70,36 +70,36 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 # e_rocket "Show item info to the right of the icons on the desktop"
 # /usr/libexec/PlistBuddy -c "Set DesktopViewSettings:IconViewSettings:labelOnBottom false" ~/Library/Preferences/com.apple.finder.plist
 
-e_rocket "Enabling snap-to-grid for the desktop and icon views"
-/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+# e_rocket "Enabling snap-to-grid for the desktop and icon views"
+# /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
-e_rocket "Increasing grid spacing for desktop and icon views"
-/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+# e_rocket "Increasing grid spacing for desktop and icon views"
+# /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 100" ~/Library/Preferences/com.apple.finder.plist
 
-e_rocket "Increasing the size of icons on the desktop and in icon views"
-/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
+# e_rocket "Increasing the size of icons on the desktop and in icon views"
+# /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
+# /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 80" ~/Library/Preferences/com.apple.finder.plist
 
-e_rocket "Setting list view as default Finder view"
-# Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# e_rocket "Setting list view as default Finder view"
+# # Four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+# defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-e_rocket "Disabling warning before emptying the Trash"
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
+# e_rocket "Disabling warning before emptying the Trash"
+# defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
-e_rocket "Setting empty Trash securely as default"
-defaults write com.apple.finder EmptyTrashSecurely -bool true
+# e_rocket "Setting empty Trash securely as default"
+# defaults write com.apple.finder EmptyTrashSecurely -bool true
 
 e_rocket "Enabling AirDrop over Ethernet and on unsupported Macs running Lion"
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
-e_rocket "Enabling the MacBook Air SuperDrive on any Mac"
-sudo nvram boot-args="mbasd=1"
+# e_rocket "Enabling the MacBook Air SuperDrive on any Mac"
+# sudo nvram boot-args="mbasd=1"
 
 e_rocket "Showing the ~/Library folder"
 chflags nohidden ~/Library
