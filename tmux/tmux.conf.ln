@@ -1,4 +1,4 @@
-set-option -g default-command "reattach-to-user-namespace -l bash"
+set-option -g default-command "reattach-to-user-namespace -l zsh"
 
 set -g mode-mouse on
 set -g default-terminal "screen-256color"

@@ -9,7 +9,7 @@ syntax enable
 set ruler
 
 " show a highlight on column 80
-set colorcolumn=80
+" set colorcolumn=80
 
 " no line wraps
 set nowrap

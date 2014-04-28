@@ -10,7 +10,7 @@ done
 # Set a default ruby
 source /usr/local/share/chruby/chruby.sh # Load chruby
 source /usr/local/share/chruby/auto.sh # Set chruby to auto-switch rubies
-chruby ruby-2.1.0
+chruby ruby-2.1.1
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
