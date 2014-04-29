@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'AndrewRadev/splitjoin.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'corntrace/bufexplorer'
 Bundle 'emilford/vim-sweeter-vest'
