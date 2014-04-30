@@ -8,7 +8,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'AndrewRadev/splitjoin.vim'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+" Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'corntrace/bufexplorer'
 Bundle 'emilford/vim-sweeter-vest'
@@ -16,6 +16,7 @@ Bundle 'ervandew/supertab'
 Bundle 'godlygeek/tabular'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
+Bundle 'jasoncodes/ctrlp-modified.vim'
 Bundle 'mattn/gist-vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'

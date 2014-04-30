@@ -39,6 +39,9 @@ nmap <leader>fi  :CtrlP app/interactors<cr>
 nmap <leader>fd  :CtrlP db<cr>
 nmap <leader>fs  :CtrlP spec<cr>
 
+""" CtrlPModified
+map <leader>m :CtrlPModified<cr>
+
 """ Tabular
 map <leader>tj  :Tabularize json<cr>
 map <leader>t:  :Tabularize first_colon<cr>
