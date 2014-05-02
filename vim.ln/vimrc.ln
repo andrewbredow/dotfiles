@@ -83,5 +83,9 @@ set foldnestmax=10    " deepest fold is 10 levels
 set nofoldenable      " don't fold by defaul
 set foldlevel=2
 
+" use the system clipboard by default, requires a Vim compiled
+" with +clipboard - `brew install vim` is the easiest way
+set clipboard=unnamed
+
 " Source .vimrc on save
 autocmd! bufwritepost ~/.vimrc  source ~/.vimrc
