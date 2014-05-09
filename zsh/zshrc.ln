@@ -51,3 +51,8 @@ alias tn='t new-session -s'
 alias ta='t attach -t'
 alias tap='ta pair'
 alias tls='t list-sessions'
+
+alias be='bundle exec'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
