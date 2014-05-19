@@ -46,5 +46,5 @@ set -g status-right-length 40
 set -g status-right "#S "
 
 # Split panes
-bind-key s split-window -h
-bind-key v split-window
+bind-key v split-window -h
+bind-key s split-window

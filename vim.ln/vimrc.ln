@@ -89,3 +89,6 @@ set clipboard=unnamed
 
 " Source .vimrc on save
 autocmd! bufwritepost ~/.vimrc  source ~/.vimrc
+
+" Set Vim to use bash
+set shell=bash
