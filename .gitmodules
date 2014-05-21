@@ -7,3 +7,6 @@
 [submodule ".oh-my-zsh.ln"]
 	path = .oh-my-zsh.ln
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "zsh-syntax-highlighting.ln"]
+	path = zsh-syntax-highlighting.ln
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git

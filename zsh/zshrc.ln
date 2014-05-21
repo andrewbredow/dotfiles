@@ -56,3 +56,6 @@ alias be='bundle exec'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Add syntax highlighting
+source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
