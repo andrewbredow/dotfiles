@@ -92,3 +92,6 @@ autocmd! bufwritepost ~/.vimrc  source ~/.vimrc
 
 " Set Vim to use bash
 set shell=bash
+
+" Keep 3 lines above and below the cursor
+set scrolloff=3
