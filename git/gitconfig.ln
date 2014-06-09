@@ -28,5 +28,3 @@
   cmd = diffmerge $LOCAL $REMOTE
 [mergetool]
   keepBackup = false
-[push]
-  default = upstream

@@ -95,3 +95,4 @@ set shell=bash
 
 " Keep 3 lines above and below the cursor
 set scrolloff=3
+set sidescrolloff=5
