@@ -4,6 +4,7 @@ set nocompatible
 set encoding=utf-8
 
 source ~/.vim/bundles.vim
+runtime! ~/.vim/bundle_settings/*.vim
 
 syntax enable
 set ruler
