@@ -97,3 +97,7 @@ set shell=bash
 " Keep 3 lines above and below the cursor
 set scrolloff=3
 set sidescrolloff=5
+
+" Always open new split panes below and to the right
+set splitbelow
+set splitright
