@@ -100,3 +100,10 @@ set sidescrolloff=5
 " Always open new split panes below and to the right
 set splitbelow
 set splitright
+
+" Superspeed
+set ttyfast
+
+" Allow mouse support
+set mouse=a
+set ttymouse=xterm2

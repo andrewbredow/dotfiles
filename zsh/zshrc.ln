@@ -59,3 +59,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Add syntax highlighting
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# added by travis gem
+[ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
