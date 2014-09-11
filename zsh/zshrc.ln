@@ -52,7 +52,10 @@ alias ta='t attach -t'
 alias tap='ta pair'
 alias tls='t list-sessions'
 
+# Ruby/Rails
 alias be='bundle exec'
+alias bers='be rails server'
+alias berc='be rails console'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
