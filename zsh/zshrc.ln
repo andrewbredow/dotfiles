@@ -62,3 +62,7 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # added by travis gem
 [ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
+
+# Kerl/Kiex
+. /Users/andrew/.kerl/installs/17.1/activate
+test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
