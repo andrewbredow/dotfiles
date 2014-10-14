@@ -9,3 +9,4 @@ AddTabularPattern! first_double_quote /^[^"]*\zs"/l1c0
 AddTabularPattern! first_left_stash   /^[^{]*\zs{/
 AddTabularPattern! first_right_stash  /^[^}]*\zs}/l1r0
 AddTabularPattern! json               /^[^:]*:\zs/l1r0
+AddTabularPattern! commas             /\,\zs/
