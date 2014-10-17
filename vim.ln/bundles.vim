@@ -38,6 +38,7 @@ Plugin 'henrik/vim-reveal-in-finder'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'rizzatti/funcoo.vim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'slim-template/vim-slim'
 
 call vundle#end()
 filetype plugin indent on
