@@ -1,0 +1,25 @@
+startservice () {
+  case "$1" in
+    mysql)
+      mysql.server start
+      ;;
+    postgresql)
+      pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+      ;;
+    mongo)
+      mongod run --config /usr/local/etc/mongod.conf
+      ;;
+    redis)
+      redis-server /usr/local/etc/redis.conf
+      ;;
+    sunspot-solr)
+      rake sunspot:solr:start
+      ;;
+    memcached)
+      /usr/local/bin/memcached -d
+      ;;
+    elasticsearch)
+      elasticsearch -D es.config=/usr/local/opt/elasticsearch/config/elasticsearch.yml
+      ;;
+  esac
+}
