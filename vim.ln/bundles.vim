@@ -5,11 +5,9 @@ filetype off
 call vundle#begin()
 Plugin 'gmarik/vundle'
 Plugin 'AndrewRadev/splitjoin.vim'
-Plugin 'altercation/vim-colors-solarized'
-" Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'chriskempson/base16-vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'corntrace/bufexplorer'
-" Plugin 'emilford/vim-sweeter-vest'
 Plugin 'caigithub/a_indent'
 Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'

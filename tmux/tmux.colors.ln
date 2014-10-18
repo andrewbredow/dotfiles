@@ -1,31 +1,38 @@
-#### COLOUR (Solarized 256)
+# Colors from default base16 theme
+BASE16_02="#303030"
+BASE16_03="#505050"
+BASE16_04="#b0b0b0"
+BASE16_09="#d28445"
+BASE16_0A="#f4bf75"
+BASE16_0B="#90a959"
+BASE16_0D="#6a9fb5"
 
-# default statusbar colors
-set-option -g status-bg colour235 #base02
-set-option -g status-fg colour136 #yellow
+# default statusbar color
+set-option -g status-bg $BASE16_02
+set-option -g status-fg $BASE16_04
 set-option -g status-attr default
 
 # default window title colors
-set-window-option -g window-status-fg colour244 #base0
-set-window-option -g window-status-bg default
+set-window-option -g window-status-bg $BASE16_02
+set-window-option -g window-status-fg $BASE16_04
 #set-window-option -g window-status-attr dim
 
 # active window title colors
-set-window-option -g window-status-current-fg colour166 #orange
-set-window-option -g window-status-current-bg default
+set-window-option -g window-status-current-bg $BASE16_02
+set-window-option -g window-status-current-fg $BASE16_0A
 #set-window-option -g window-status-current-attr bright
 
 # pane border
-set-option -g pane-border-fg colour235 #base02
-set-option -g pane-active-border-fg colour240 #base01
+set-option -g pane-border-fg $BASE16_02
+set-option -g pane-active-border-fg $BASE16_03
 
 # message text
-set-option -g message-bg colour235 #base02
-set-option -g message-fg colour166 #orange
+set-option -g message-bg $BASE16_02
+set-option -g message-fg $BASE16_0A
 
 # pane number display
-set-option -g display-panes-active-colour colour33 #blue
-set-option -g display-panes-colour colour166 #orange
+set-option -g display-panes-active-colour $BASE16_0D
+set-option -g display-panes-colour $BASE16_0A
 
 # clock
-set-window-option -g clock-mode-colour colour64 #green
+set-window-option -g clock-mode-colour $BASE16_0B

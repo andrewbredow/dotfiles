@@ -1,5 +1,27 @@
 set-option -g default-command "reattach-to-user-namespace -l zsh"
 
+# Start tmux windows at 1 instead of 0
+set -g base-index 1
+
+# Re-number windows sequentially after closing any of them
+set -g renumber-windows on
+
+# Set status line left section to start
+set -g status-left " "
+
+# Set status line right section to session name
+set -g status-right " #S "
+
+# Set window title format
+set-window-option -g window-status-format ' #I - #W '
+
+# Set current window title format
+set-window-option -g window-status-current-format ' #I - #W '
+
+set -g status-justify left
+set -g status-left-length 0
+set -g status-right-length 40
+
 set -g mode-mouse on
 set -g default-terminal "screen-256color"
 setw -g mouse-select-window on
@@ -37,11 +59,6 @@ bind-key Right resize-pane -R 8
 bind-key Left resize-pane -L 8
 bind-key Up resize-pane -U 4
 bind-key Down resize-pane -D 4
-
-set -g status-justify centre  # show windows in the center
-set -g status-left-length 0
-set -g status-right-length 40
-set -g status-right "#S "
 
 # Split panes
 bind-key v split-window -h
