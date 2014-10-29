@@ -15,5 +15,8 @@ stopservice () {
     sunspot-solr)
       rake sunspot:solr:stop
       ;;
+    nginx)
+      nginx -s stop
+      ;;
   esac
 }

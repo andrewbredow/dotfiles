@@ -15,3 +15,7 @@ alias td='t kill-session -t'
 alias be='bundle exec'
 alias bers='be rails server'
 alias berc='be rails console'
+
+# Service management
+alias starts='startservice'
+alias stops='stopservice'

@@ -21,5 +21,8 @@ startservice () {
     elasticsearch)
       elasticsearch -D es.config=/usr/local/opt/elasticsearch/config/elasticsearch.yml
       ;;
+    nginx)
+      nginx -c /usr/local/etc/nginx/nginx.conf
+      ;;
   esac
 }
