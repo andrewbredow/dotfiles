@@ -25,7 +25,7 @@ chruby 2.1.5
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/functions.zsh
 
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
@@ -36,5 +36,5 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
 
 # Kerl/Kiex
-. /Users/andrew/.kerl/installs/17.1/activate
+. /Users/andrew/.kerl/installs/17.4/activate
 source "$HOME/.kiex/scripts/kiex"
