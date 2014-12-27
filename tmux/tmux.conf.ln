@@ -1,5 +1,4 @@
 # REMINDER: Options can be found here: http://man.cx/tmux
-
 set-option -g default-command "reattach-to-user-namespace -l zsh"
 
 set -g base-index 1
@@ -54,3 +53,7 @@ bind-key Down resize-pane -D 4
 # Split panes
 bind-key v split-window -h
 bind-key s split-window
+
+# Set window title
+set -g set-titles on
+set -g set-titles-string "#T"
