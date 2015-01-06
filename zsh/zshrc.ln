@@ -15,6 +15,9 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 unsetopt correct
 
+#Set shell colors
+source "$HOME/.base16-shell/base16-default.dark.sh"
+
 export EDITOR=vim
 
 source /usr/local/share/chruby/chruby.sh
@@ -38,3 +41,4 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Kerl/Kiex
 . /Users/andrew/.kerl/installs/17.4/activate
 source "$HOME/.kiex/scripts/kiex"
+
