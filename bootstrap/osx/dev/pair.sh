@@ -20,7 +20,7 @@ touch ~/.ssh/authorized_keys
 
 users=( albus522 bryckbost danielmorrison emilford \
         ersatzryan gaffneyc jasonroelofs jcarpenter88 \
-        laserlemon manlycode pichot tbugai trestrantham \
+        laserlemon manlycode tbugai trestrantham \
         andrewbredow )
 
 # GitHub seems to throttle these requests.
