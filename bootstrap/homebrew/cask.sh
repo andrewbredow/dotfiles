@@ -41,11 +41,3 @@ install_cask things
 install_cask virtualbox
 install_cask vlc
 install_cask wireshark
-
-# Other
-Apple Directory
-AppleConnect
-Brightness Menulet
-Filemaker Pro
-Fallout 2
-Omnigraffle
