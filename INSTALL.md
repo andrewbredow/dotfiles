@@ -1,11 +1,19 @@
 1. Install applications:
-  - 1Password
-  - Evernote
+  - Airmail 2
+  - Aperturee
+  - Asset Catalog Creator
+  - Byword
+  - Day One
+  - Duo
   - Fantastical
-  - Flint
-  - iPhoto
-  - The Unarchiver
+  - Gifwit
+  - Lingo
+  - Paprika Recipe Manager
+  - Pixelmator
+  - Rested
+  - Sip
   - Tweetbot
+  - Xcode
 
 
 In iTerm2, in Preferences -> Profiles -> Terminal, under "Terminal Emulation" you have "Report Terminal Type:" set to xterm-256color.
