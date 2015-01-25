@@ -63,6 +63,10 @@ function install_casks {
   source $SCRIPT_PATH/homebrew/cask.sh
 }
 
+function install_fonts {
+  source $SCRIPT_PATH/homebrew/font.sh
+}
+
 function install_defaults {
   echo
   read -p "Install system defaults? " -n 1 -r
