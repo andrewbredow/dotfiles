@@ -29,10 +29,12 @@ install_cask rowanj-gitx
 install_cask google-chrome
 install_cask iterm2
 install_cask licecap
+install_cask jumpcut
 install_cask livereload
 install_cask macpass
 install_cask nvalt
 install_cask rdio
+install_cask sequel-pro
 install_cask screenhero
 install_cask slack
 install_cask superduper
@@ -40,4 +42,5 @@ install_cask the-unarchiver
 install_cask things
 install_cask virtualbox
 install_cask vlc
+install_cask xquartz
 install_cask wireshark

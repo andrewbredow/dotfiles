@@ -5,11 +5,12 @@ source ${SCRIPT_PATH%/*/*}/include.sh
 
 e_header "Login Items"
 
-login_items=("Alfred 2", "Bartender", "BitTorrent Sync", "Caffeine" \
-             "Divvy", "Dropbox", "Flux", "Sip" )
+login_items=("Alfred\ 2.app" "Bartender.app" "BitTorrent Sync.app" "Caffeine.app" \
+             "Divvy.app" "Dropbox.app" "Flux.app" "Sip.app" "Jumpcut.app")
 
 e_rocket "Adding Login Items"
 for item in "${login_items[@]}"; do
-  osascript -e "tell application \"System Events\" to make login item at end with properties {path:\"$item\", hidden:false}"
+  e_arrow "Adding $item to login items"
+  osascript -e "tell application \"System Events\" to make login item at end with properties {path:\"/Applications/$item\", hidden:false}"
 done
 
