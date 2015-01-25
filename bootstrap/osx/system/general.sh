@@ -20,3 +20,9 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWOTHERUSERS_MA
 
 e_rocket "Setting standby delay to 24 hours"
 sudo pmset -a standbydelay 86400
+
+e_rocket "Disable ambient light sensor"
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor.plist "Automatic Display Enabled" -bool false
+
+e_rocket "Default to local filesystem instead of iCloud"
+sudo defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false

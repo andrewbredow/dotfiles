@@ -7,6 +7,9 @@ source ${SCRIPT_PATH%/*/*}/include.sh
 # e_header "Remote Pair"
 ###############################################################################
 
+e_rocket "Installing github-auth gem"
+sudo gem install github-auth
+
 e_rocket "Creating aliases for Pair and pair"
 sudo dscl . -append /Users/$USER RecordName Pair pair
 
@@ -27,5 +30,5 @@ users=( albus522 bryckbost danielmorrison emilford \
 # Try again later if there's any unexpected errors.
 for user in "${users[@]}"; do
   e_arrow "Adding GitHub public keys for $user"
-  gh-auth add --users $user --command="$( which tmux ) attach -t pair"
+  gh-auth add --users $user --command="source /Users/$USER && $( which tmux ) attach -t pair"
 done

@@ -104,7 +104,7 @@ function install_rubies() {
 
 # Remote pair
 function setup_remote_pair() {
-  source $SCRIPT_PATH/osx/remote/pair.sh
+  source $SCRIPT_PATH/osx/dev/pair.sh
 }
 
 # Brew formulas
