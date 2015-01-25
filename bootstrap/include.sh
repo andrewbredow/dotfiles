@@ -92,14 +92,14 @@ function install_defaults {
   fi
 }
 
-# Ruby gems
-function install_gems() {
-  source $SCRIPT_PATH/ruby/gems.sh
-}
-
 # Rubies
 function install_rubies() {
-  source $SCRIPT_PATH/ruby/rubies.sh
+  source $SCRIPT_PATH/environments/rubies.sh
+}
+
+# Elixirs
+function install_elixirs() {
+  source $SCRIPT_PATH/environments/elixirs.sh
 }
 
 # Remote pair

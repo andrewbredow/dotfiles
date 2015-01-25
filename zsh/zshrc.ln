@@ -23,7 +23,7 @@ export EDITOR=vim
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
-chruby 2.1.5
+chruby 2.2.0
 
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/functions.zsh
