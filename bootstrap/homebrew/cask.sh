@@ -19,7 +19,6 @@ install_cask bittorrent-sync
 install_cask caffeine
 install_cask calibre
 install_cask cloak
-install_cask dash
 install_cask diffmerge
 install_cask divvy
 install_cask dropbox
