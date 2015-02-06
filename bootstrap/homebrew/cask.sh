@@ -39,7 +39,7 @@ install_cask slack
 install_cask superduper
 install_cask the-unarchiver
 install_cask things
-install_cask virtualbox
+install_cask vagrant
 install_cask vlc
 install_cask xquartz
 install_cask wireshark
