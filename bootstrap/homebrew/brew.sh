@@ -31,6 +31,7 @@ install_formula keybase
 install_formula phantomjs
 install_formula zsh
 install_formula wget
+install_formula moreutils
 
 e_arrow "Don't forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 
