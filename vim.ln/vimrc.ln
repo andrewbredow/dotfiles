@@ -104,6 +104,9 @@ set splitright
 " Superspeed
 set ttyfast
 
+" Always display the status line
+set laststatus=2
+
 " Allow mouse support
 set mouse=a
 set ttymouse=xterm2
