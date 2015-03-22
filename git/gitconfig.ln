@@ -17,6 +17,7 @@
   st = status
   mt = mergetool
   rb = rebase
+  lg = log --graph --pretty=format:'%Cred%h%Creset - %Cblue[%an]%Creset%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 [merge]
   tool = diffmerge
 [mergetool "diffmerge"]
