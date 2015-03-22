@@ -114,3 +114,6 @@ set ttymouse=xterm2
 " Allow - to be considered part of a word
 set iskeyword+=-
 set iskeyword+=$
+
+" Temporarily disable numbers
+set nonu
