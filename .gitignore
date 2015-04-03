@@ -1,1 +1,2 @@
 /vim.ln/bundle/*
+!/vim.ln/bundle/vundle
