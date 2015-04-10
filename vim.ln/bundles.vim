@@ -30,14 +30,12 @@ Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-cucumber'
-Plugin 'vim-ruby/vim-ruby'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'pangloss/vim-javascript'
-Plugin 'henrik/vim-reveal-in-finder'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'slim-template/vim-slim'
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'gorodinskiy/vim-coloresque'
 
 call vundle#end()
 filetype plugin indent on
