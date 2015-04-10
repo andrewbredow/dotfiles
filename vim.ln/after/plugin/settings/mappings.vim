@@ -64,3 +64,6 @@ map <leader>h :Dash<cr>
 """ Don't use the escape key!
 inoremap jk <esc>
 
+""" Rails
+map <leader>ra :A<cr>
+map <leader>rr :R<cr>
