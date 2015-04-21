@@ -90,9 +90,6 @@ set clipboard=unnamed
 " Source .vimrc on save
 autocmd! bufwritepost ~/.vimrc  source ~/.vimrc
 
-" Set Vim to use bash
-set shell=bash
-
 " Keep 3 lines above and below the cursor
 set scrolloff=3
 set sidescrolloff=5
@@ -114,4 +111,3 @@ set ttymouse=xterm2
 " Allow - to be considered part of a word
 set iskeyword+=-
 set iskeyword+=$
-set iskeyword-=.

@@ -11,3 +11,6 @@ if [[ ! `cat /etc/shells | grep \/usr\/local\/bin\/zsh` ]]; then
   sudo echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 fi
 chsh -s /usr/local/bin/zsh
+
+e_rocket "Moving system zsh config"
+sudo mv /etc/{zshenv,zshrc}
