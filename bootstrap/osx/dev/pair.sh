@@ -24,7 +24,8 @@ touch ~/.ssh/authorized_keys
 users=( albus522 bryckbost danielmorrison emilford \
         ersatzryan gaffneyc jasonroelofs jcarpenter88 \
         laserlemon manlycode tbugai trestrantham \
-        andrewbredow )
+        andrewbredow lauramosher kopchickm shekibobo be-bert \
+        jonstokes bitmanic mattslack )
 
 # GitHub seems to throttle these requests.
 # Try again later if there's any unexpected errors.
