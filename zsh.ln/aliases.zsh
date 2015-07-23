@@ -1,7 +1,10 @@
 # Projects
 alias cdi=/Users/andrew/src/collective-idea
-alias cdc=/Users/andrew/src/consulting
+alias cdr=/Users/andrew/src/collective-idea/runway
 alias cdp=/Users/andrew/src/personal
+alias cdc=/Users/andrew/src/carrie
+alias cdv=/Users/andrew/src/consulting/voeden-ios
+alias dotfiles=/Users/andrew/src/personal/dotfiles
 
 # Local tmux
 alias t='tmux'
