@@ -29,7 +29,7 @@ set history=200                 " Remember last 200 commands
 set undolevels=1000             " 1000 undo
 
 " search
-set hlsearch
+" set hlsearch Don't highlight for now to see how it works
 set showmatch
 set incsearch
 set ignorecase
