@@ -41,6 +41,6 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
 
 # Kerl/Kiex
-. /Users/andrew/.kerl/installs/17.4/activate
+. /Users/andrew/.kerl/installs/18.0/activate
 source "$HOME/.kiex/scripts/kiex"
 
