@@ -1,3 +1,2 @@
 *.DS_Store
-.powrc
-.ruby-version
+.tool-versions
