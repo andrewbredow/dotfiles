@@ -73,3 +73,10 @@ inoremap jk <esc>
 """ Rails
 map <leader>ra :A<cr>
 map <leader>rr :R<cr>
+
+""" Vim Test
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>

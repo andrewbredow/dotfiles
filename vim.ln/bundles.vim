@@ -36,6 +36,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'slim-template/vim-slim'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'benmills/vimux'
+Plugin 'janko-m/vim-test'
 
 call vundle#end()
 filetype plugin indent on
