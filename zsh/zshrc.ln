@@ -36,7 +36,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # added by travis gem
-[ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
 
 # Initialize ASDF
 source $HOME/.asdf/asdf.sh
