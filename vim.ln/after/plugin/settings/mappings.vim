@@ -3,6 +3,12 @@ nnoremap ; :
 nnoremap j gj
 nnoremap k gk
 
+" Map arrow keys to window resize
+nmap <left>  <c-w><
+nmap <right> <c-w>>
+nmap <up>    <c-w>+
+nmap <down>  <c-w>-
+
 " enter in normal mode removes highlight except in quickfix window
 nnoremap <cr> :noh<cr>
 autocmd BufReadPost Quickfix nnoremap <buffer> <cr> <cr>
