@@ -3,33 +3,14 @@
 SCRIPT_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 source ${SCRIPT_PATH%/*}/include.sh
 
-read -p "Install Erlang 18.0?" -n 1 -r
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]; then
-  e_rocket "Installing/updating kerl"
-  sudo mkdir -p /opt/bin
-
-  sudo wget https://raw.githubusercontent.com/spawngrid/kerl/master/kerl -N -P /opt/bin
-  sudo chmod a+x /opt/bin/kerl
-
-  e_rocket "Installing Erlang 18.0"
-  KERL_CONFIGURE_OPTIONS="--enable-darwin-64bit --with-ssl=/usr/local/opt/openssl" kerl build 18.0 18.0
-
-  mkdir -p /Users/$USER/.kerl/installs
-  kerl install 18.0 /Users/$USER/.kerl/installs/18.0
-fi
-
-echo
-
-read -p "Install Elixir 1.0.5?" -n 1 -r
+read -p "Install current version of Elixir?" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   e_rocket "Installing Elixir"
-  HOME=/Users/$USER
-  curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
-  . /Users/$USER/.kerl/installs/18.0/activate
-  source /Users/$USER/.kiex/scripts/kiex
-  kiex install 1.0.5
-  kiex default 1.0.5
+
+  source $HOME/.asdf/asdf.sh
+  asdf plugin-add elixir https://github.com/HashNuke/asdf-elixir.git
+
+  asdf install elixir 1.0.5
 fi
 

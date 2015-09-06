@@ -96,9 +96,19 @@ function install_defaults {
   fi
 }
 
+# ASDF Version Manager
+function install_asdf() {
+  source $SCRIPT_PATH/environments/asdf.sh
+}
+
 # Rubies
 function install_rubies() {
   source $SCRIPT_PATH/environments/rubies.sh
+}
+
+# Erlangs
+function install_erlangs() {
+  source $SCRIPT_PATH/environments/erlangs.sh
 }
 
 # Elixirs

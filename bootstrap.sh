@@ -12,7 +12,7 @@ echo
 PS3=$'\nPick your poison: '
 options=("Bootstrap all the things" "Dotfiles" "Homebrew" \
          "Homebrew Formulas" "Homebrew Casks" "Homebrew Fonts" "OS X Defaults" \
-         "Ruby" "Elixir" "Remote Pair" "Quit")
+         "ASDF" "Ruby" "Erlang" "Elixir" "Remote Pair" "Quit")
 
 select opt in "${options[@]}"; do
   case $opt in
@@ -24,7 +24,9 @@ select opt in "${options[@]}"; do
       install_dotfiles
       install_defaults
       create_pair_user
+      install_asdf
       install_rubies
+      install_erlangs
       install_elixirs
       ;;
     "Dotfiles")
@@ -51,9 +53,17 @@ select opt in "${options[@]}"; do
       e_header "$opt"
       install_defaults
       ;;
+    "ASDF")
+      e_header "$opt"
+      install_asdf
+      ;;
     "Ruby")
       e_header "$opt"
       install_rubies
+      ;;
+    "Erlang")
+      e_header "$opt"
+      install_erlangs
       ;;
     "Elixir")
       e_header "$opt"

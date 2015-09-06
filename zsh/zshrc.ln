@@ -23,11 +23,6 @@ source "$HOME/.base16-shell/base16-default.dark.sh"
 
 export EDITOR=vim
 
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
-
-chruby 2.2.0
-
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/functions.zsh
 
@@ -38,12 +33,10 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Add syntax highlighting
-source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # added by travis gem
 [ -f /Users/andrew/.travis/travis.sh ] && source /Users/andrew/.travis/travis.sh
 
-# Kerl/Kiex
-. /Users/andrew/.kerl/installs/18.0/activate
-source "$HOME/.kiex/scripts/kiex"
-
+# Initialize ASDF
+source $HOME/.asdf/asdf.sh
