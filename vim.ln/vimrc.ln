@@ -59,7 +59,8 @@ set viminfo=
 
 set laststatus=1
 
-set statusline=%f                               " tail of the filename
+set statusline=%{fugitive#statusline()}         " Git branch
+set statusline+=%f                              " tail of the filename
 set statusline+=%=                              " left/right separator
 set statusline+=%y                              " filetype
 set statusline+=%m                              " modified flag
