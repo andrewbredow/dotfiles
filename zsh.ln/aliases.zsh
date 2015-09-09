@@ -15,9 +15,8 @@ alias tls='t list-sessions'
 alias td='t kill-session -t'
 
 # Ruby/Rails
-alias be='bundle exec'
-alias bers='be rails server'
-alias berc='be rails console'
+alias rs='rails server'
+alias rc='rails console'
 
 # Service management
 alias starts='startservice'
