@@ -17,6 +17,7 @@ alias td='t kill-session -t'
 # Ruby/Rails
 alias rs='rails server'
 alias rc='rails console'
+alias rdm='rake db:migrate'
 
 # Service management
 alias starts='startservice'
