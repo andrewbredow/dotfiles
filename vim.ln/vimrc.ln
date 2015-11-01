@@ -114,3 +114,6 @@ endif
 " Allow - to be considered part of a word
 set iskeyword+=-
 set iskeyword+=$
+
+" Don't save history for netr
+:let g:netrw_dirhistmax = 0
