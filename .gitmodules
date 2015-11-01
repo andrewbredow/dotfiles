@@ -1,11 +1,5 @@
-[submodule "vim.ln/bundle/vundle"]
-	path = vim.ln/bundle/vundle
-	url = git@github.com:gmarik/vundle.git
 [submodule "oh-my-zsh.ln"]
 	path = oh-my-zsh.ln
-	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule ".oh-my-zsh.ln"]
-	path = .oh-my-zsh.ln
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "zsh-syntax-highlighting.ln"]
 	path = zsh-syntax-highlighting.ln
