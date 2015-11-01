@@ -107,7 +107,9 @@ set laststatus=2
 
 " Allow mouse support
 set mouse=a
-set ttymouse=xterm2
+if !has('nvim')
+  set ttymouse=xterm2
+endif
 
 " Allow - to be considered part of a word
 set iskeyword+=-
