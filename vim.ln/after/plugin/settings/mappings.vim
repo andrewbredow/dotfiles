@@ -10,8 +10,8 @@ nmap <up>    <c-w>+
 nmap <down>  <c-w>-
 
 " enter in normal mode removes highlight except in quickfix window
-nnoremap <cr> :noh<cr>
-autocmd BufReadPost Quickfix nnoremap <buffer> <cr> <cr>
+" nnoremap <cr> :noh<cr>
+" autocmd BufReadPost Quickfix nnoremap <buffer> <cr> <cr>
 
 " Remove all trailing whitespace
 nnoremap <silent> <leader>kws :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
