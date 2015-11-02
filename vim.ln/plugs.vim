@@ -16,7 +16,7 @@ Plug 'jasoncodes/ctrlp-modified.vim'
 Plug 'mattn/gist-vim'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'scrooloose/syntastic'
+Plug 'benekastah/neomake'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-dispatch'
