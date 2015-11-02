@@ -21,7 +21,7 @@ unsetopt nomatch
 #Set shell colors
 source "$HOME/.base16-shell/base16-default.dark.sh"
 
-export EDITOR=vim
+export EDITOR=nvim
 
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/functions.zsh

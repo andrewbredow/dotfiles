@@ -22,3 +22,6 @@ alias rdm='rake db:migrate'
 # Service management
 alias starts='startservice'
 alias stops='stopservice'
+
+# Neovim
+alias vim='nvim'
