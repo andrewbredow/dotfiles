@@ -6,11 +6,11 @@ source ${SCRIPT_PATH%/*}/include.sh
 read -p "Install current version of Elixir?" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
-  e_rocket "Installing Elixir"
+  e_rocket "Installing Elixir $SYSTEM_ELIXIR_VERSION"
 
   source $HOME/.asdf/asdf.sh
   asdf plugin-add elixir https://github.com/HashNuke/asdf-elixir.git
 
-  asdf install elixir 1.0.5
+  asdf install elixir $SYSTEM_ELIXIR_VERSION
 fi
 

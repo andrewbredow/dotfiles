@@ -12,6 +12,14 @@ function e_rocket()   { echo -e "\033[1;34m==>\033[0m $@"; }
 # Ask for the administrator password upfront
 sudo -v
 
+# Set environment variables to represent the current versions of each environment
+while read line; do
+  IFS=' ' read -a tool <<< $line
+  tool_name=`echo "${tool[0]}" |  tr "[:lower:]" "[:upper:]"`
+  tool_version=${tool[1]}
+  export SYSTEM_${tool_name}_VERSION=${tool_version}
+done < ${SCRIPT_PATH}/../tool-versions.ln
+
 # Keep-alive: update existing `sudo` time stamp until `default` has finished
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
