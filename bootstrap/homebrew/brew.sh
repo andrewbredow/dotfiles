@@ -23,7 +23,6 @@ install_formula reattach-to-user-namespace
 install_formula redis
 install_formula the_silver_searcher
 install_formula tmux
-install_formula vim
 install_formula keybase
 install_formula phantomjs
 install_formula zsh
