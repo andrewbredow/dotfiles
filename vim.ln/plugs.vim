@@ -37,6 +37,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'benmills/vimux'
 Plug 'janko-m/vim-test'
+Plug 'othree/html5.vim'
 
 call plug#end()
 "filetype plugin indent on
