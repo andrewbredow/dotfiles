@@ -18,6 +18,9 @@ unsetopt correct
 #Allow rake commands to be run without escaping brackets
 unsetopt nomatch
 
+# Correct terminal mode that sometimes gets screwed up
+stty sane
+
 #Set shell colors
 source "$HOME/.base16-shell/base16-default.dark.sh"
 
