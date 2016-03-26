@@ -5,7 +5,7 @@ SCRIPT_PATH=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 source ${SCRIPT_PATH%/*}/include.sh
 
 e_header "Setting up Homebrew Casks"
-brew tap phinze/homebrew-cask 2>/dev/null
+brew tap caskroom/cask 2>/dev/null
 brew install brew-cask 2>/dev/null
 
 install_cask heroku-toolbelt
