@@ -77,3 +77,10 @@ nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+
+""" Neovim terminal mappings
+if has("nvim")
+  " Allow escape or Ctrl-[ to switch to navigation mode in the terminal
+  :tnoremap <Esc> <C-\><C-n>
+  " :tnoremap <C-[> <C-\><C-n>
+endif
