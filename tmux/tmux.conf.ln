@@ -31,11 +31,6 @@ bind -n C-k if-shell "$is_vim" "send-keys C-k" "select-pane -U"
 bind -n C-l if-shell "$is_vim" "send-keys C-l" "select-pane -R"
 bind -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
 
-# A few additions to help in Dvorak
-bind -n C-t if-shell "$is_vim" "send-keys C-t" "select-pane -D"
-bind -n C-n if-shell "$is_vim" "send-keys C-n" "select-pane -U"
-bind -n C-s if-shell "$is_vim" "send-keys C-s" "select-pane -R"
-
 # Copy mode
 bind-key ` copy-mode
 unbind-key [

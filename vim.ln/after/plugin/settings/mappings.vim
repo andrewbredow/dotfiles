@@ -3,17 +3,6 @@ nnoremap ; :
 nnoremap j gj
 nnoremap k gk
 
-" Make Dvorak motions better
-nmap t j
-vmap t j
-nmap <c-t> <c-j>
-nmap n k
-vmap n k
-nmap <c-n> <c-k>
-nmap s l
-vmap s l
-nmap <c-s> <c-l>
-
 " Map arrow keys to window resize
 nmap <left>  <c-w><
 nmap <right> <c-w>>
@@ -77,7 +66,6 @@ nnoremap <Leader>} :%s/\([^ ]\)}/\1 }/gc<CR>
 
 """ Don't use the escape key!
 inoremap jk <esc>
-inoremap tn <esc>
 
 """ Rails
 map <leader>ra :A<cr>
