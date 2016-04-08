@@ -29,10 +29,6 @@ export EDITOR=nvim
 source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/functions.zsh
 
-export PATH=./bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Add syntax highlighting
@@ -43,3 +39,7 @@ source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Initialize ASDF
 source $HOME/.asdf/asdf.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=./bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
