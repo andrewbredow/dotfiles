@@ -1,6 +1,7 @@
 [user]
   name = Andrew Bredow
   email = bredow@gmail.com
+  useconfigonly = true
 [author]
   name = Andrew Bredow
   email = bredow@gmail.com
