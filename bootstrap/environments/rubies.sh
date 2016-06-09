@@ -8,7 +8,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   e_rocket "Installing Ruby $SYSTEM_RUBY_VERSION"
   source $HOME/.asdf/asdf.sh
-  asdf plugin-add ruby https://github.com/HashNuke/asdf-ruby.git
+  asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
 
   # RUBY_CONFIGURE_OPTIONS
   # RUBY_EXTRA_CONFIGURE_OPTIONS
