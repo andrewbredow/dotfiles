@@ -8,6 +8,7 @@ brew update 2>/dev/null
 brew upgrade 2>/dev/null
 brew tap homebrew/dupes 2>/dev/null
 brew tap jingweno/gh 2>/dev/null
+brew tap aykamko/tag-ag 2>/dev/null
 
 # Development
 install_formula ack
@@ -28,6 +29,7 @@ install_formula phantomjs
 install_formula zsh
 install_formula wget
 install_formula moreutils
+install_formula tag-ag
 
 e_arrow "Don't forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
 
