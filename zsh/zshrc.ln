@@ -8,7 +8,7 @@ export ZSH_THEME="andrew"
 export CASE_SENSITIVE="true"
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git per-directory-history)
+plugins=(git mix rake per-directory-history autoenv)
 
 source $ZSH/oh-my-zsh.sh
 
