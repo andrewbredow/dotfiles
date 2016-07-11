@@ -36,7 +36,8 @@ source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
 
 # Initialize ASDF
-[ -f $HOME/.asdf ]  && source $HOME/.asdf/asdf.sh
+[ -d $HOME/.asdf ]  && source $HOME/.asdf/asdf.sh
+[ -d $HOME/.asdf ]  && source $HOME/.asdf/completions/asdf.bash
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
