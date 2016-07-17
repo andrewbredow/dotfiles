@@ -3,46 +3,61 @@
 "filetype off
 
 call plug#begin('~/.vim/plugged')
-Plug 'AndrewRadev/splitjoin.vim'
+
+"Colors
 Plug 'chriskempson/base16-vim'
-Plug 'christoomey/vim-tmux-navigator'
+
+" Custom Syntaxes
+Plug 'kchmck/vim-coffee-script'
+Plug 'tpope/vim-markdown'
+Plug 'elixir-lang/vim-elixir'
+Plug 'pangloss/vim-javascript'
+Plug 'vim-ruby/vim-ruby'
+Plug 'slim-template/vim-slim'
+Plug 'othree/html5.vim'
+
+" Basic Editar Customizations
+Plug 'AndrewRadev/splitjoin.vim'
 Plug 'corntrace/bufexplorer'
 Plug 'caigithub/a_indent'
 Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
-Plug 'kchmck/vim-coffee-script'
-Plug 'kien/ctrlp.vim'
-Plug 'jasoncodes/ctrlp-modified.vim'
-Plug 'mattn/gist-vim'
-Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-Plug 'benekastah/neomake'
-Plug 'tpope/vim-abolish'
+Plug 'airblade/vim-gitgutter'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-ragtag' " Tag completion
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-markdown'
+
+" Ruby/Rails Stuff
 Plug 'tpope/vim-rails'
-Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-rake'
 Plug 'tpope/vim-bundler'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-cucumber'
-Plug 'elixir-lang/vim-elixir'
-Plug 'pangloss/vim-javascript'
-Plug 'airblade/vim-gitgutter'
-Plug 'slim-template/vim-slim'
-Plug 'vim-ruby/vim-ruby'
-Plug 'ntpeters/vim-better-whitespace'
-Plug 'benmills/vimux'
+
+" Build Tools
+Plug 'tpope/vim-dispatch'
+Plug 'benekastah/neomake'
 Plug 'janko-m/vim-test'
-Plug 'othree/html5.vim'
+
+" Searching
+Plug 'kien/ctrlp.vim'
+Plug 'rking/ag.vim'
+Plug 'jasoncodes/ctrlp-modified.vim'
+
+" Tmux Fu
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
 "
-" Markdown tools
+" Prose tools
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 Plug 'reedes/vim-pencil', { 'on': 'Goyo' }
+
+" ICE BOX - Maybe get rid of these
+" Plug 'tpope/vim-abolish'
+" Plug 'tpope/vim-cucumber'
 
 call plug#end()
 "filetype plugin indent on
