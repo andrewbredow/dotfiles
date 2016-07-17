@@ -39,6 +39,10 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'benmills/vimux'
 Plug 'janko-m/vim-test'
 Plug 'othree/html5.vim'
+"
+" Markdown tools
+Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
+Plug 'reedes/vim-pencil', { 'on': 'Goyo' }
 
 call plug#end()
 "filetype plugin indent on
