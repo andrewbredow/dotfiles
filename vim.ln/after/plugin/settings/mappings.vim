@@ -33,10 +33,10 @@ vmap <leader>c gc<cr>
 xmap <leader>c gc<cr>
 
 """ FZF
-nnoremap <c-p> :FZF<cr>
-nnoremap <c-a> :Ag<cr>
-nnoremap <c-b> :Buffers<cr>
-nnoremap <c-m> :GFiles?<cr>
+nmap <leader>ff :FZF<cr>
+nmap <leader>fa :Ag<cr>
+nmap <leader>fb :Buffers<cr>
+nmap <leader>fg :GFiles?<cr>
 
 """ CtrlPModified
 map <leader>m :CtrlPModified<cr>

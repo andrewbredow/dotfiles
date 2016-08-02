@@ -14,3 +14,8 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
+let $FZF_CTRL_R_OPTS="--preview-window right:30% --preview 'echo {}'"
+" let g:fzf_files_options =
+"   \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
+  " \ '--preview-windew right:30% --preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'

@@ -18,7 +18,6 @@ Plug 'othree/html5.vim'
 
 " Basic Editar Customizations
 Plug 'AndrewRadev/splitjoin.vim'
-Plug 'corntrace/bufexplorer'
 Plug 'caigithub/a_indent'
 Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
