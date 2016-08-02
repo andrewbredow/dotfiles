@@ -43,9 +43,8 @@ Plug 'benekastah/neomake'
 Plug 'janko-m/vim-test'
 
 " Searching
-Plug 'kien/ctrlp.vim'
-Plug 'Numkil/ag.vim'
-Plug 'jasoncodes/ctrlp-modified.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Tmux Fu
 Plug 'christoomey/vim-tmux-navigator'

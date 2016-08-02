@@ -32,18 +32,11 @@ nmap <leader>c gcc<cr>
 vmap <leader>c gc<cr>
 xmap <leader>c gc<cr>
 
-""" CtrlP
-nmap <leader>ff  :CtrlP<cr>
-nmap <leader>fa  :CtrlP app<cr>
-nmap <leader>fm  :CtrlP app/models<cr>
-nmap <leader>fc  :CtrlP app/controllers<cr>
-nmap <leader>fv  :CtrlP app/views<cr>
-nmap <leader>fh  :CtrlP app/helpers<cr>
-nmap <leader>faj :CtrlP app/assets/javascripts<cr>
-nmap <leader>fas :CtrlP app/assets/stylesheets<cr>
-nmap <leader>fi  :CtrlP app/interactors<cr>
-nmap <leader>fd  :CtrlP db<cr>
-nmap <leader>fs  :CtrlP spec<cr>
+""" FZF
+nnoremap <c-p> :FZF<cr>
+nnoremap <c-a> :Ag<cr>
+nnoremap <c-b> :Buffers<cr>
+nnoremap <c-m> :GFiles?<cr>
 
 """ CtrlPModified
 map <leader>m :CtrlPModified<cr>
@@ -81,6 +74,6 @@ nmap <silent> <leader>g :TestVisit<CR>
 """ Neovim terminal mappings
 if has("nvim")
   " Allow escape or Ctrl-[ to switch to navigation mode in the terminal
-  :tnoremap <Esc> <C-\><C-n>
+  " :tnoremap <Esc> <C-\><C-n>
   " :tnoremap <C-[> <C-\><C-n>
 endif
