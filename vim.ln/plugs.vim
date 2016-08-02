@@ -44,7 +44,7 @@ Plug 'janko-m/vim-test'
 
 " Searching
 Plug 'kien/ctrlp.vim'
-Plug 'rking/ag.vim'
+Plug 'Numkil/ag.vim'
 Plug 'jasoncodes/ctrlp-modified.vim'
 
 " Tmux Fu
