@@ -45,3 +45,6 @@ export PATH=./bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 
 # FZF integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPTS='
+  --color=16
+'
