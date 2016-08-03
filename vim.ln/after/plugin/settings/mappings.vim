@@ -36,7 +36,7 @@ xmap <leader>c gc<cr>
 nmap <leader>ff :FZF<cr>
 nmap <leader>fa :Ag<cr>
 nmap <leader>fb :Buffers<cr>
-nmap <leader>fg :GFiles?<cr>
+nmap <leader>fm :GFiles?<cr>
 
 """ CtrlPModified
 map <leader>m :CtrlPModified<cr>
