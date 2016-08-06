@@ -26,4 +26,4 @@
 [mergetool]
   keepBackup = false
 [push]
-	default = current
+  default = upstream
