@@ -9,3 +9,8 @@ brew tap caskroom/fonts
 e_rocket "Installing Source Code Pro"
 brew cask install font-source-code-pro
 
+e_rocket "Installing Hasklig"
+brew cask install font-hasklig
+
+e_rocket "Installing Fira Code"
+brew cask install font-fira-code
