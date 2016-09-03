@@ -28,6 +28,7 @@ install_formula keybase
 install_formula phantomjs
 install_formula zsh
 install_formula wget
+install_formula wxmac # for WX support in Erlang
 install_formula moreutils
 install_formula tag-ag
 

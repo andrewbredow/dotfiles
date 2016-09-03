@@ -11,7 +11,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
   source $HOME/.asdf/asdf.sh
   asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 
-  ERLANG_CONFIGURE_OPTIONS="--enable-darwin-64bit --with-ssl=/usr/local/opt/openssl"
+  ERLANG_CONFIGURE_OPTIONS="--enable-darwin-64bit --with-ssl=/usr/local/opt/openssl --with-wx"
   # ERLANG_EXTRA_CONFIGURE_OPTIONS
 
   asdf install erlang $SYSTEM_ERLANG_VERSION
