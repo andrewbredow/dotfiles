@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 
 "Colors
 Plug 'chriskempson/base16-vim'
+Plug 'daviesjamie/vim-base16-lightline'
 
 " Custom Syntaxes
 Plug 'kchmck/vim-coffee-script'
@@ -30,6 +31,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-ragtag' " Tag completion
 Plug 'tpope/vim-fugitive'
+Plug 'itchyny/lightline.vim'
 
 " Ruby/Rails Stuff
 Plug 'tpope/vim-rails'
