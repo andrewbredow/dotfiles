@@ -51,6 +51,9 @@ function! LightLineFugitive()
 endfunction
 
 function! LightLineFileformat()
+  if &fileformat == 'unix'
+    return ''
+  endif
   return winwidth(0) > 70 ? &fileformat : ''
 endfunction
 
@@ -59,6 +62,9 @@ function! LightLineFiletype()
 endfunction
 
 function! LightLineFileencoding()
+  if &fenc == 'utf-8'
+    return ''
+  endif
   return winwidth(0) > 70 ? (&fenc !=# '' ? &fenc : &enc) : ''
 endfunction
 
