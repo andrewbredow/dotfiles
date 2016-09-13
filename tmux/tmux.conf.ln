@@ -5,7 +5,7 @@ set -g base-index 1
 set -g renumber-windows on
 
 set -g status-left " "
-set -g status-right " #S "
+set -g status-right " #S@#h"
 
 set-window-option -g window-status-format ' #I#F - #W '
 set-window-option -g window-status-current-format ' #I#F - #W '
