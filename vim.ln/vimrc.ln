@@ -124,3 +124,6 @@ let g:netrw_dirhistmax = 0
 
 " Use skinny cursor when in insert mode
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE = '1'
+
+" Rely on lightline for mode
+set noshowmode

@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 
 "Colors
 Plug 'chriskempson/base16-vim'
-Plug 'daviesjamie/vim-base16-lightline'
+Plug 'andrewbredow/vim-base16-lightline'
 
 " Custom Syntaxes
 Plug 'kchmck/vim-coffee-script'
