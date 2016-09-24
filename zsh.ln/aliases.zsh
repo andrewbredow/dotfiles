@@ -32,3 +32,8 @@ if (( $+commands[tag] )); then
   tag() { command tag "$@"; source ${TAG_ALIAS_FILE:-/tmp/tag_aliases} 2>/dev/null }
   alias ag=tag
 fi
+
+# Color Themes
+alias light='base16_harmonic16-light'
+alias dark='base16_harmonic16-dark'
+
