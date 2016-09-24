@@ -7,7 +7,6 @@ let g:lightline = {
       \ 'component_function': {
       \   'modified': 'LightLineModified',
       \   'readonly': 'LightLineReadonly',
-      \   'fugitive': 'LightLineFugitive',
       \   'filename': 'LightLineFilename',
       \   'fileformat': 'LightLineFileformat',
       \   'filetype': 'LightLineFiletype',
@@ -17,6 +16,7 @@ let g:lightline = {
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' }
       \ }
+      " \   'fugitive': 'LightLineFugitive',
 " let g:lightline.mode_map = extend(lightline.mode_map, {
 "   \ 'n' : 'N'
 "   \ 'i' : 'I' }
