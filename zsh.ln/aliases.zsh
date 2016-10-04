@@ -20,6 +20,10 @@ alias rc='rails console'
 alias rdm='rake db:migrate'
 alias rdr='rake db:rollback'
 
+# Elixir/Phoenix
+alias mt='mix test'
+alias mps='mix phoenix.server'
+
 # Service management
 alias starts='startservice'
 alias stops='stopservice'
