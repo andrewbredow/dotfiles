@@ -14,9 +14,13 @@ alias tap='ta pair'
 alias tls='t list-sessions'
 alias td='t kill-session -t'
 
+# FZF
+alias f='fzf'
+
 # Ruby/Rails
 alias rs='rails server'
 alias rc='rails console'
+alias rr='rake routes | fzf'
 alias rdm='rake db:migrate'
 alias rdr='rake db:rollback'
 
