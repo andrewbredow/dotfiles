@@ -28,6 +28,9 @@ alias rdr='rake db:rollback'
 alias mt='mix test'
 alias mps='mix phoenix.server'
 
+# Jekyll
+alias js='jekyll serve'
+
 # Service management
 alias starts='startservice'
 alias stops='stopservice'
@@ -42,6 +45,6 @@ if (( $+commands[tag] )); then
 fi
 
 # Color Themes
-alias light='base16_harmonic16-light'
-alias dark='base16_harmonic16-dark'
+alias light='base16_harmonic-light'
+alias dark='base16_harmonic-dark'
 

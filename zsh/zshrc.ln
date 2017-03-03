@@ -7,10 +7,7 @@ export ZSH_THEME="andrew"
 
 export CASE_SENSITIVE="true"
 
-# Kill the lag when entering vi mode
-export KEYTIMEOUT=1
-
-plugins=(vi-mode git mix rake per-directory-history autoenv)
+plugins=(git mix rake per-directory-history autoenv)
 source $ZSH/oh-my-zsh.sh
 
 unsetopt correct_all

@@ -1,7 +1,3 @@
-"set nocompatible
-"set rtp+=~/.vim/bundle/vundle
-"filetype off
-
 call plug#begin('~/.vim/plugged')
 
 "Colors
@@ -9,13 +5,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'andrewbredow/vim-base16-lightline'
 
 " Custom Syntaxes
-Plug 'kchmck/vim-coffee-script'
-Plug 'tpope/vim-markdown'
-Plug 'elixir-lang/vim-elixir'
-Plug 'pangloss/vim-javascript'
-Plug 'vim-ruby/vim-ruby'
-Plug 'slim-template/vim-slim'
-Plug 'othree/html5.vim'
+Plug 'sheerun/vim-polyglot'
 
 " Basic Editar Customizations
 Plug 'AndrewRadev/splitjoin.vim'
@@ -52,13 +42,9 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'benmills/vimux'
 "
 " Prose tools
+Plug 'itspriddle/vim-marked'
 Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 Plug 'reedes/vim-pencil', { 'on': 'Goyo' }
 
-" ICE BOX - Maybe get rid of these
-" Plug 'tpope/vim-abolish'
-" Plug 'tpope/vim-cucumber'
-
 call plug#end()
-"filetype plugin indent on
 
