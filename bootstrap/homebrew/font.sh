@@ -14,3 +14,6 @@ brew cask install font-hasklig
 
 e_rocket "Installing Fira Code"
 brew cask install font-fira-code
+
+e_rocket "Installing Iosevka"
+brew cask install font-iosevka
