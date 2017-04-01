@@ -5,6 +5,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'andrewbredow/vim-base16-lightline'
 
 " Custom Syntaxes
+Plug 'elixir-lang/vim-elixir'
 Plug 'sheerun/vim-polyglot'
 
 " Basic Editar Customizations
@@ -22,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-ragtag' " Tag completion
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
+Plug 'danro/rename.vim'
 
 " Ruby/Rails Stuff
 Plug 'tpope/vim-rails'
