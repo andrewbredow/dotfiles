@@ -36,9 +36,11 @@ bind-key ` copy-mode
 unbind-key [
 unbind-key p
 bind-key p paste-buffer
-bind-key -t vi-copy v begin-selection
-bind-key -t vi-copy y copy-selection
-bind-key -t vi-copy Escape cancel
+
+bind-key -T copy-mode-vi v send-keys begin-selection
+bind-key -T copy-mode-vi y send-keys copy-selection
+bind-key -T copy-mode-vi Escape send-keys cancel
+
 bind-key y run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
 
 source-file ~/.tmux.colors
