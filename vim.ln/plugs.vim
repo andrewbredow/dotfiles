@@ -6,6 +6,7 @@ Plug 'andrewbredow/vim-base16-lightline'
 
 " Custom Syntaxes
 Plug 'elixir-lang/vim-elixir'
+Plug 'ElmCast/elm-vim'
 Plug 'sheerun/vim-polyglot'
 
 " Basic Editar Customizations
