@@ -1,6 +1,8 @@
 [user]
   useconfigonly = true
 	name = Andrew Bredow
+	email = bredow@gmail.com
+	signingkey = 50CADB86A7D69316
 [github]
   user = andrewbredow
 [color]
@@ -28,3 +30,5 @@
   keepBackup = false
 [push]
   default = current
+[commit]
+	gpgsign = true
