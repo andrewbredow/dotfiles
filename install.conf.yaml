@@ -4,10 +4,6 @@
 
 - clean: ['~', '~/.config']
 
-- shell:
-  - [mkdir -p ~/.config, Create the config basedir]
-  - [touch ~/.hushlogin, Hush the last login prompt]
-
 - link:
     ~/.tmux.conf: configs/tmux.conf
     ~/.tmux.colors: configs/tmux.colors
@@ -26,3 +22,6 @@
     ~/.zplug: configs/zplug
     ~/.zshrc: configs/zshrc
     ~/.zsh: configs/zsh
+
+- shell:
+  - [touch ~/.hushlogin, Hush the last login prompt]
