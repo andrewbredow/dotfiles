@@ -1,26 +1,33 @@
-# Path to your oh-my-zsh configuration.
-
-# export CASE_SENSITIVE="true"
-
-# plugins=(git mix rake per-directory-history autoenv)
-
-##############
-##############
-##############
+export ZPLUG_HOME=~/.zplug
 source ~/.zplug/init.zsh
 
-# Prompt
-zplug mafredri/zsh-async, from:github
-zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
+zplug "mafredri/zsh-async"
+zplug "sindresorhus/pure", use:pure.zsh, as:theme
 
-zplug plugins/mix, from:oh-my-zsh
-zplug plugins/rake, from:oh-my-zsh
-zplug jimhester/per-directory-history, from:github
-zplug Tarrasch/zsh-autoenv, from:github
+zplug "Tarrasch/zsh-autoenv"
 
-##############
-##############
-##############
+zplug "jimhester/per-directory-history"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2 # Should be loaded 2nd last.
+zplug "zsh-users/zsh-history-substring-search", defer:3 # Should be loaded last.
+zplug "mafredri/zsh-async", defer:0
+zplug "sindresorhus/pure", use:pure.zsh, as:theme
+
+zplug "chriskempson/base16-shell", defer:0
+
+# Check for uninstalled plugins.
+if ! zplug check --verbose; then
+  printf "Install? [y/N]: "
+  if read -q; then
+    echo; zplug install
+  fi
+fi
+
+zplug load
+
+export CASE_SENSITIVE="true"
+
 unsetopt correct_all
 unsetopt correct
 
@@ -30,16 +37,9 @@ unsetopt nomatch
 # Correct terminal mode that sometimes gets screwed up
 stty sane
 
-#Set shell colors
-BASE16_SHELL=$HOME/.base16-shell/
-[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
-
 export EDITOR=nvim
 
 source $HOME/.zsh/aliases.zsh
-
-# Add syntax highlighting
-source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # added by travis gem
 [ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh

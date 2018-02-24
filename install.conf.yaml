@@ -23,5 +23,6 @@
     ~/.gitconfig: configs/gitconfig
     ~/.gitignore_global: configs/gitignore_global
     ~/.agignore: configs/agignore.ln
+    ~/.zplug: configs/zplug
     ~/.zshrc: configs/zshrc
     ~/.zsh: configs/zsh
