@@ -1,5 +1,5 @@
 [submodule "vim.ln/plug"]
-	path = vim.ln/plug
+	path = configs/vim/plug
 	url = https://github.com/junegunn/vim-plug.git
 [submodule "zplug.ln"]
 	path = zplug.ln
