@@ -3,3 +3,4 @@ au BufRead,BufNewFile {Gemfile,Rakefile,Vagrantfile,Thorfile,Procfile,config.ru,
 au BufNewFile,BufRead *.json set ft=javascript
 au BufRead,BufNewFile *.html.eex setfiletype html
 au BufRead,BufNewFile *.go setlocal noet
+au BufRead,BufNewFile *.tpl setfiletype liquid
