@@ -3,9 +3,8 @@ source ~/.zplug/init.zsh
 
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:pure.zsh, as:theme
-
 zplug "Tarrasch/zsh-autoenv"
-
+zplug "junegunn/fzf-bin", from:gh-r, as:command, rename-to:fzf
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
@@ -13,7 +12,6 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2 # Should be loaded 2nd last.
 zplug "zsh-users/zsh-history-substring-search", defer:3 # Should be loaded last.
 zplug "mafredri/zsh-async", defer:0
 zplug "sindresorhus/pure", use:pure.zsh, as:theme
-
 zplug "chriskempson/base16-shell", defer:0
 
 # Check for uninstalled plugins.
@@ -53,16 +51,13 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=./bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 
 # FZF integration
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_OPTS='
-  --color=16
-'
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Use Ag as source for fuzzy matching (causes VCS ignores to be honored)
 export FZF_DEFAULT_COMMAND='ag -g ""'
 
-# TMUX 2.2 kqueue woraround https://github.com/tmux/tmux/issues/475
-export EVENT_NOKQUEUE=1
+# Use 16 color FZF
+export FZF_DEFAULT_OPTS='--color=16'
 
 # Disable Spring forever
 export DISABLE_SPRING=true
