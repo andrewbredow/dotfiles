@@ -1,15 +1,26 @@
 # Path to your oh-my-zsh configuration.
-export ZSH=$HOME/.oh-my-zsh
 
-export ZSH_CUSTOM=$HOME/.zsh
+# export CASE_SENSITIVE="true"
 
-export ZSH_THEME="andrew"
+# plugins=(git mix rake per-directory-history autoenv)
 
-export CASE_SENSITIVE="true"
+##############
+##############
+##############
+source ~/.zplug/init.zsh
 
-plugins=(git mix rake per-directory-history autoenv)
-source $ZSH/oh-my-zsh.sh
+# Prompt
+zplug mafredri/zsh-async, from:github
+zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
+zplug plugins/mix, from:oh-my-zsh
+zplug plugins/rake, from:oh-my-zsh
+zplug jimhester/per-directory-history, from:github
+zplug Tarrasch/zsh-autoenv, from:github
+
+##############
+##############
+##############
 unsetopt correct_all
 unsetopt correct
 
@@ -26,7 +37,6 @@ BASE16_SHELL=$HOME/.base16-shell/
 export EDITOR=nvim
 
 source $HOME/.zsh/aliases.zsh
-source $HOME/.zsh/functions.zsh
 
 # Add syntax highlighting
 source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

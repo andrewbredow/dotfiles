@@ -33,16 +33,16 @@ function install_dotfiles {
   for f in `find ${SCRIPT_PATH%/*} -name '*.ln'`; do
     filename=$(basename "$f")
 
-    if [ -e "$HOME/.${filename%.ln}" ]
-    then
-      rm "$HOME/.${filename%.ln}"
-    fi
+    # if [ -e "$HOME/.${filename%.ln}" ]
+    # then
+    #   rm "$HOME/.${filename%.ln}"
+    # fi
 
     ln -s -f "$( greadlink -f "$f" )" "$HOME/.${filename%.ln}"
   done
 
   # Install Plugs
-  vim -u ~/.vim/plugs.vim +PlugInstall +qall
+  # vim -u ~/.vim/plugs.vim +PlugInstall +qall
 }
 
 function install_homebrew {
