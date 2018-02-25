@@ -29,6 +29,8 @@ export CASE_SENSITIVE="true"
 unsetopt correct_all
 unsetopt correct
 
+setopt auto_cd
+
 #Allow rake commands to be run without escaping brackets
 unsetopt nomatch
 
@@ -58,6 +60,11 @@ export FZF_DEFAULT_COMMAND='ag -g ""'
 
 # Use 16 color FZF
 export FZF_DEFAULT_OPTS='--color=16'
+
+# LS colors, made with http://geoff.greer.fm/lscolors/
+export LSCOLORS="exfxcxdxbxagadabagaxad"
+export LS_COLORS='di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=30;46:cd=0;43:su=30;41:sg=0;46:tw=30;40:ow=30;43:'
+export CLICOLOR=1
 
 # Disable Spring forever
 export DISABLE_SPRING=true
