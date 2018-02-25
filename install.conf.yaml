@@ -27,3 +27,8 @@
   - [touch ~/.hushlogin, Hush the last login prompt]
   # This might need nome work on non-nvim systems
   - [nvim -u ~/.vim/plugs.vim +PlugInstall +qall, Install Vim plugs]
+
+  # TODO
+  # - Install homebrew, casks, packages, fonts, etc...
+  # - Install asdf and versioned things
+  # - Update OS X and other application settings
