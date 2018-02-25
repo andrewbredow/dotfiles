@@ -17,6 +17,23 @@ alias td='t kill-session -t'
 # FZF
 alias f='fzf'
 
+# Git
+# https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
+alias g='git'
+alias ga='git add'
+alias gc='git commit -v'
+alias gc!='git commit -v --amend'
+alias gcb='git checkout -b'
+alias gco='git checkout'
+alias gd='git diff'
+alias gf='git fetch'
+alias gp='git push'
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+alias grbi='git rebase -i'
+alias gst='git status'
+
 # Ruby/Rails
 alias rs='rails server'
 alias rc='rails console'
