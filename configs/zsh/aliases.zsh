@@ -47,10 +47,6 @@ alias mer='mix ecto.rollback'
 # Jekyll
 alias js='jekyll serve'
 
-# Service management
-alias starts='startservice'
-alias stops='stopservice'
-
 # Neovim
 alias vim='nvim'
 
