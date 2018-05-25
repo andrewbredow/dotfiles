@@ -5,23 +5,24 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.tmux.conf: configs/tmux.conf
-    ~/.tmux.colors: configs/tmux.colors
-    ~/.vim: configs/vim
-    ~/.vimrc: configs/vimrc
+    ~/.agignore: configs/agignore
+    ~/.bin: configs/bin
     ~/.config/nvim: configs/vim
-    ~/.tool-versions: configs/tool-versions
     ~/.gemrc: configs/gemrc
-    ~/.irbrc: configs/irbrc
-    ~/.pryrc: configs/pryrc
-    ~/.rspec: configs/rspec
-    ~/.psqlrc: configs/psqlrc
     ~/.gitconfig: configs/gitconfig
     ~/.gitignore_global: configs/gitignore_global
-    ~/.agignore: configs/agignore.ln
+    ~/.irbrc: configs/irbrc
+    ~/.pryrc: configs/pryrc
+    ~/.psqlrc: configs/psqlrc
+    ~/.rspec: configs/rspec
+    ~/.tmux.colors: configs/tmux.colors
+    ~/.tmux.conf: configs/tmux.conf
+    ~/.tool-versions: configs/tool-versions
+    ~/.vim: configs/vim
+    ~/.vimrc: configs/vimrc
     ~/.zplug: configs/zplug
-    ~/.zshrc: configs/zshrc
     ~/.zsh: configs/zsh
+    ~/.zshrc: configs/zshrc
 
 - shell:
   - [touch ~/.hushlogin, Hush the last login prompt]
