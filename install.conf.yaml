@@ -26,7 +26,11 @@
 
 - shell:
   - [touch ~/.hushlogin, Hush the last login prompt]
-  # This might need nome work on non-nvim systems
+
+  # Install homebrew & packages
+  - [brew bundle --file=$HOME/.brewfile
+
+  # Install all of the vim plugs
   - [nvim -u ~/.vim/plugs.vim +PlugInstall +qall, Install Vim plugs]
 
   # TODO
