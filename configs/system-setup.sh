@@ -9,6 +9,7 @@ function main {
   install_asdf
   install_iterm
   install_macos
+  install_login_items
   install_zsh
 }
 
@@ -77,6 +78,18 @@ function install_macos {
   header "macOS"
 
   run "configure macOS" "sh ./.macos"
+}
+
+function install_login_items {
+  header 'Login Items'
+
+
+  login_items=("Alfred 3.app" "Bartender.app" "KeepingYouAwake.app" "Divvy.app" "Dropbox.app" "Sip.app")
+
+  for item in "${login_items[@]}"; do
+    message "Adding $item to login items"
+    osascript -e "tell application \"System Events\" to make login item at end with properties {path:\"/Applications/$item\", hidden:false}"
+  done
 }
 
 function with_logging {
