@@ -1,11 +1,9 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 
-brew 'asdf'
 brew 'findutils'
 brew 'git'
 brew 'heroku'
-brew 'keybase'
 brew 'libyaml'
 brew 'mas'
 brew 'mysql'
@@ -51,12 +49,12 @@ cask 'spotify'
 cask 'superduper'
 cask 'the-unarchiver'
 
-font 'font-hasklig'
-font 'font-iosevka'
+cask 'font-hasklig'
+cask 'font-iosevka'
 
 mas 'Gifox', id: 1082624744
 mas 'Pixelmator', id: 407963104
-mas 'Omnifocus', 867299399
+mas 'Omnifocus', id: 867299399
 mas 'Sip', id: 507257563
 mas 'Tweetbot', id: 557168941
 mas 'Rested', id: 421879749
