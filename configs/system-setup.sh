@@ -15,11 +15,16 @@ function main {
 function install_asdf {
   header "asdf"
 
-  cmd "source /usr/local/opt/asdf/asdf.sh"
+  if [ -e "$HOME/.asdf" ]; then
+    run "updating asdf" "cd $HOME/.asdf && git pull"
+  else
+    run "installing asdf" "git clone https://github.com/HashNuke/asdf.git $HOME/.asdf"
+  fi
+  source $HOME/.asdf/asdf.sh
 
-  asdf_plugin_add "elixir"   "https://github.com/asdf-vm/asdf-elixir.git"
-  asdf_plugin_add "erlang"   "https://github.com/asdf-vm/asdf-erlang.git"
-  asdf_plugin_add "ruby"     "https://github.com/asdf-vm/asdf-ruby.git"
+  asdf_plugin_add "elixir" "https://github.com/asdf-vm/asdf-elixir.git"
+  asdf_plugin_add "erlang" "https://github.com/asdf-vm/asdf-erlang.git"
+  asdf_plugin_add "ruby"   "https://github.com/asdf-vm/asdf-ruby.git"
 
   run "asdf plugin-update: all" "asdf plugin-update --all"
   run "asdf install: all" "asdf install"
