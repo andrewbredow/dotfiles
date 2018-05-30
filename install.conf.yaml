@@ -29,14 +29,10 @@
 
 - shell:
   - [touch ~/.hushlogin, Hush the last login prompt]
+  - [mkdir -p ~/src, Create the local working src filder]
 
-  # Install homebrew & packages
-  - [brew bundle --file=$HOME/.brewfile
+  # Run the system setup
+  - [sh ~/.system-setup.sh]
 
   # Install all of the vim plugs
   - [nvim -u ~/.vim/plugs.vim +PlugInstall +qall, Install Vim plugs]
-
-  # TODO
-  # - Install homebrew, casks, packages, fonts, etc...
-  # - Install asdf and versioned things
-  # - Update OS X and other application settings
