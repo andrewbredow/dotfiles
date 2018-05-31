@@ -52,15 +52,10 @@ export EDITOR=nvim
 
 source $HOME/.zsh/aliases.zsh
 
-# added by travis gem
-[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
-
 # Initialize ASDF
 [ -d $HOME/.asdf ]  && source $HOME/.asdf/asdf.sh
 [ -d $HOME/.asdf ]  && source $HOME/.asdf/completions/asdf.bash
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
