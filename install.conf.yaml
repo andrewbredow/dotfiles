@@ -33,7 +33,9 @@
     ~/.zplug: configs/zplug
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
-    ~/Library/Preferences/com.mizage.direct.Divvy.plist: preferences/com.mizage.direct.Divvy.plist
+    ~/Library/Preferences/com.mizage.direct.Divvy.plist:
+      force: true
+      path: preferences/com.mizage.direct.Divvy.plist
 
 - shell:
   - [touch ~/.hushlogin, Hush the last login prompt]
