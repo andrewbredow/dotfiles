@@ -8,7 +8,7 @@
 [color]
   ui = true
 [core]
-  excludesfile = /Users/andrew/.config/git/ignore
+  excludesfile = ~/.config/git/ignore
 [alias]
   co = checkout
   br = branch
@@ -31,4 +31,5 @@
 [push]
   default = current
 [commit]
+  template = ~/.config/git/commit_template
 	gpgsign = true
