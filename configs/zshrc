@@ -34,8 +34,19 @@ setopt auto_cd
 #Allow rake commands to be run without escaping brackets
 unsetopt nomatch
 
-# Correct terminal mode that sometimes gets screwed up
-stty sane
+# Always reset terminal mode to original state after processes run
+ttyctl -f
+
+# Search history based on what's been typed with up and down arrow
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
+# Disk space is free, save history
+export HISTSIZE=1000000
+export SAVEHIST=$HISTSIZE
+
+# Don't save duplicate commands in history
+setopt histignoredups
 
 export EDITOR=nvim
 
@@ -51,15 +62,6 @@ source $HOME/.zsh/aliases.zsh
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
-
-# FZF integration
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Use Ag as source for fuzzy matching (causes VCS ignores to be honored)
-export FZF_DEFAULT_COMMAND='ag -g ""'
-
-# Use 16 color FZF
-export FZF_DEFAULT_OPTS='--color=16'
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
 export LSCOLORS="exfxcxdxbxagadabagaxad"
