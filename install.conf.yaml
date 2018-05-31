@@ -17,6 +17,7 @@
     ~/.config/nvim:
       create: true
       path: configs/nvim
+    ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
     ~/.irbrc: configs/irbrc
