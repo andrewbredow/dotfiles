@@ -7,3 +7,6 @@
 [submodule "configs/zplug"]
 	path = configs/zplug
 	url = https://github.com/zplug/zplug
+[submodule "configs/nvim/plug"]
+	path = configs/nvim/plug
+	url = https://github.com/junegunn/vim-plug.git
