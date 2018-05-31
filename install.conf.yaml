@@ -8,10 +8,17 @@
     ~/.agignore: configs/agignore
     ~/.bin: configs/bin
     ~/.brewfile: configs/brewfile
-    ~/.config/nvim: configs/vim
+    ~/.config/git:
+      create: true
+      path: configs/git
+    ~/.config/iterm2:
+      create: true
+      path: configs/iterm2
+    ~/.config/nvim:
+      create: true
+      path: configs/nvim
     ~/.gemrc: configs/gemrc
-    ~/.gitconfig: configs/gitconfig
-    ~/.gitignore_global: configs/gitignore_global
+    ~/.gitconfig: configs/git/config # Legacy git
     ~/.irbrc: configs/irbrc
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
@@ -20,8 +27,8 @@
     ~/.tmux.colors: configs/tmux.colors
     ~/.tmux.conf: configs/tmux.conf
     ~/.tool-versions: configs/tool-versions
-    ~/.vim: configs/vim
-    ~/.vimrc: configs/vimrc
+    ~/.vim: configs/nvim # Legacy vim
+    ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zplug: configs/zplug
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
