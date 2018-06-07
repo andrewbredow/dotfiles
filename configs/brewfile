@@ -1,7 +1,8 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 
-brew 'chromedriver'
+#brew 'chromedriver'
+brew 'autoconf'
 brew 'findutils'
 brew 'git'
 brew 'heroku'
@@ -10,6 +11,7 @@ brew 'mas'
 brew 'mysql'
 brew 'node'
 brew 'npm'
+brew 'nvim'
 brew 'phantomjs'
 brew 'postgresql'
 brew 'redis'
@@ -20,7 +22,7 @@ brew 'wxmac'
 brew 'zsh'
 
 cask_args appdir: '/Applications'
-cask '1password'
+#cask '1password'
 cask 'alfred'
 cask 'arq'
 cask 'atom'
@@ -30,7 +32,7 @@ cask 'calibre'
 cask 'dash'
 cask 'disk-inventory-x'
 cask 'divvy'
-cask 'dropbox'
+#cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'gpg-suite'
@@ -44,7 +46,6 @@ cask 'macdown'
 cask 'mailmate'
 cask 'muzzle'
 cask 'rocket'
-cask 'sequel-pro'
 cask 'slack'
 cask 'spotify'
 cask 'superduper'
@@ -57,7 +58,7 @@ mas 'Gifox', id: 1082624744
 mas 'Pixelmator', id: 407963104
 mas 'Omnifocus', id: 867299399
 mas 'Sip', id: 507257563
-mas 'Tweetbot', id: 557168941
+mas 'Tweetbot 3 for Twitter', id: 1384080005
 mas 'Rested', id: 421879749
 mas 'Paprika Recipe Manager 3', id: 1303222628
 

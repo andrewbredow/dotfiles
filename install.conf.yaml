@@ -21,6 +21,7 @@
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
     ~/.irbrc: configs/irbrc
+    ~/.macos: configs/macos
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
     ~/.rspec: configs/rspec
@@ -45,4 +46,4 @@
   - [sh ~/.system-setup.sh]
 
   # Install all of the vim plugs
-  - [nvim -u ~/.vim/plugs.vim +PlugInstall +qall, Install Vim plugs]
+  - [nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall, Install Vim plugs]
