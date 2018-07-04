@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
+tap 'buo/cask-upgrade'
 
 #brew 'chromedriver'
 brew 'autoconf'
