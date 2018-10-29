@@ -1,7 +1,7 @@
 [user]
   useconfigonly = true
 	name = Andrew Bredow
-	email = andrew@andrewbredow.com
+	email = andrewbredow@github.com
 	signingkey = 279D9CE44F1A7B43
 [github]
   user = andrewbredow
@@ -35,3 +35,8 @@
 	gpgsign = true
 [credential]
 	helper = osxkeychain
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
