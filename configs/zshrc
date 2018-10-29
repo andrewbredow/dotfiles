@@ -65,4 +65,6 @@ export CLICOLOR=1
 # Disable Spring forever
 export DISABLE_SPRING=true
 
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
