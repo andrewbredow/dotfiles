@@ -1,8 +1,7 @@
 # Projects
-alias cdi='cd /Users/andrew/src/collective-idea'
-alias cdp='cd /Users/andrew/src/personal'
-alias cdc='cd /Users/andrew/src/carrie'
-alias dotfiles='cd /Users/andrew/src/personal/dotfiles'
+alias cdg='cd /Users/andrew/src/github/github'
+alias dotfiles='cd /Users/andrew/src/dotfiles'
+alias github='cd /Users/andrew/src/github'
 
 # Local tmux
 alias t='tmux'
