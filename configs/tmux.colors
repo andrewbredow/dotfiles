@@ -1,30 +1,21 @@
 # default statusbar color
-set-option -g status-bg colour8
-set-option -g status-bg colour18
-set-option -g status-fg colour15
-set-option -g status-attr default
+set -g status-style bg=colour18,fg=colour15,default
 
 # default window title colors
-set-window-option -g window-status-bg default
-set-window-option -g window-status-fg colour244
-set-window-option -g window-status-attr dim
+setw -g window-status-style bg=default,fg=colour244,dim
 
 # active window title colors
-set-window-option -g window-status-current-bg colour0
-set-window-option -g window-status-current-fg colour5
-set-window-option -g window-status-current-attr bright
+setw -g window-status-current-style bg=colour0,fg=colour5,bright
 
 # pane border
-set-option -g pane-border-fg colour7
-set-option -g pane-active-border-fg colour2
+set -g pane-border-style fg=colour7,fg=colour2
 
 # message text
-set-option -g message-bg colour240
-set-option -g message-fg colour3
+set -g message-style bg=colour240,fg=colour3
 
 # pane number display
-set-option -g display-panes-active-colour colour33
-set-option -g display-panes-colour colour166
+set -g display-panes-active-colour colour33
+set -g display-panes-colour colour166
 
 # clock
-set-window-option -g clock-mode-colour colour5
+setw -g clock-mode-colour colour5
