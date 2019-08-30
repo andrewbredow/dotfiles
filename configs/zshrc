@@ -67,6 +67,11 @@ export DISABLE_SPRING=true
 
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
+# Set up FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_COMMAND='
+  git ls-tree -r --name-only HEAD ||
+  fd --type f --hidden --follow --exclude .git'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 eval "$(rbenv init -)"

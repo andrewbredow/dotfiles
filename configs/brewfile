@@ -4,6 +4,7 @@ tap 'buo/cask-upgrade'
 
 #brew 'chromedriver'
 brew 'autoconf'
+brew 'fd'
 brew 'findutils'
 brew 'git'
 brew 'heroku'

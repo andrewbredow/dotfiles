@@ -1,0 +1,4 @@
+# Add this because the default command uses --hidden, which shows hidden
+# files sans things included in .gitignore. This ensures that we ignore git too...
+# since it wont be in the ignore file ever
+.git

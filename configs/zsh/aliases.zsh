@@ -13,6 +13,9 @@ alias td='t kill-session -t'
 # FZF
 alias f='fzf'
 
+# Silver Searcher
+alias ag='ag --hidden'
+
 # Git
 # https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh
 alias g='git'
