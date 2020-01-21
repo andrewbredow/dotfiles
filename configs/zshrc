@@ -69,9 +69,16 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 # Set up FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_COMMAND='
-  git ls-tree -r --name-only HEAD ||
-  fd --type f --hidden --follow --exclude .git'
+# This lists using git-ls-tree... not great for creating new files
+# but very helpful for dotcom
+# export FZF_DEFAULT_COMMAND='
+#   git ls-tree -r --name-only HEAD ||
+#   fd --type f --hidden --follow --exclude .git'
+# export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
-eval "$(rbenv init -)"
+eval "$(nodenv init -)"
+eval "$(rbenv init - zsh)"
+
+export KITTY_CONFIG_DIRECTORY='~/.config/kitty/kitty.conf'
