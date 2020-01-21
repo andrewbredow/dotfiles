@@ -16,6 +16,9 @@ nmap <down>  <c-w>-
 " Remove all trailing whitespace
 nnoremap <silent> <leader>kws :let _s=@/<bar>:%s/\s\+$//e<bar>:let @/=_s<bar>:nohl<cr>
 
+" Convert liquid tags to erb
+nnoremap <silent> <leader>erb :%s/{{/<%=/ge <bar> %s/}}/%>/ge <bar> %s/{/</ge <bar> %s/}/>/ge <bar> %s/%\ include/%\ render/ge <bar> %s/endif/end/ge <bar> %s/endfor/endif/ge<cr><cr>
+
 """ Fugitive
 nmap <leader>gb :Gblame<cr>
 nmap <leader>gs :Gstatus<cr>
