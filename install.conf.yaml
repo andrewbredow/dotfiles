@@ -17,6 +17,12 @@
     ~/.config/nvim:
       create: true
       path: configs/nvim
+    ~/.config/kitty:
+      create: true
+      path: configs/kitty
+    ~/.config/karabiner:
+      create: true
+      path: configs/karabiner
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
@@ -26,6 +32,7 @@
     ~/.psqlrc: configs/psqlrc
     ~/.rspec: configs/rspec
     ~/.system-setup.sh: configs/system-setup.sh
+    ~/.terminfo: configs/terminfo
     ~/.tmux.colors: configs/tmux.colors
     ~/.tmux.conf: configs/tmux.conf
     ~/.tool-versions: configs/tool-versions
