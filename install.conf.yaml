@@ -81,3 +81,6 @@
 
   - description: Install vim plugins
     command: nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall
+
+  - description: Set dark theme
+    command: dark

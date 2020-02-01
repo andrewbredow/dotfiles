@@ -34,18 +34,18 @@
 			</array>
 			<key>com.apple.Safari</key>
 			<array>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXWindow, AXApplication]</string>
-				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXRadioButton][subrole:AXTabButton][parents:AXGroup, AXRadioButton, AXApplication, AXWindow]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTabGroup, AXWebArea]</string>
 				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
-				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXTabGroup, AXWebArea]</string>
 				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXHeading, AXLink, AXGroup, AXWindow, AXApplication]</string>
 				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXGroup, AXRadioButton, AXButton, AXWindow, AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXRadioButton][subrole:AXTabButton][parents:AXGroup, AXRadioButton, AXApplication, AXWindow]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
 				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:AXPreformattedStyleGroup][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
 				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXHeading][subrole:][parents:AXSplitGroup, AXWebArea, AXScrollArea, AXTabGroup, AXHeading, AXLink, AXGroup, AXWindow, AXApplication]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:][parents:AXList, AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXList, AXWindow, AXApplication]</string>
 			</array>
 			<key>com.apple.coreservices.uiagent</key>
 			<array>
