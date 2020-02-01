@@ -4,14 +4,13 @@ source ~/.zplug/init.zsh
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:pure.zsh, as:theme
 zplug "Tarrasch/zsh-autoenv"
-zplug "junegunn/fzf-bin", from:gh-r, as:command, rename-to:fzf
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-syntax-highlighting", defer:2 # Should be loaded 2nd last.
-zplug "zsh-users/zsh-history-substring-search", defer:3 # Should be loaded last.
-zplug "sindresorhus/pure", use:pure.zsh, as:theme
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zsh-users/zsh-history-substring-search", defer:3
 zplug "chriskempson/base16-shell", defer:0
+zplug "kiurchv/asdf.plugin.zsh", defer:2
 
 # Check for uninstalled plugins.
 if ! zplug check --verbose; then

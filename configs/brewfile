@@ -3,8 +3,10 @@ tap 'homebrew/cask-fonts'
 tap 'buo/cask-upgrade'
 
 brew 'autoconf'
+brew 'asdf'
 brew 'fd'
 brew 'findutils'
+brew 'fzf'
 brew 'git'
 brew 'heroku'
 brew 'libyaml'
@@ -51,6 +53,8 @@ cask 'the-unarchiver'
 cask 'font-hasklig'
 cask 'font-iosevka'
 
+mas 'Airmail 3', id: 918858936
+mas 'Bear', id: 1091189122
 mas 'Gifox', id: 1082624744
 mas 'Pixelmator', id: 407963104
 mas 'Sip', id: 507257563

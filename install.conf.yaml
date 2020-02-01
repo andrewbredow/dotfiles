@@ -1,33 +1,26 @@
 - defaults:
     link:
       relink: true
+      create: true
+    shell:
+      stderr: true
+      stdout: true
 
 - clean: ['~', '~/.config']
 
 - link:
     ~/.agignore: configs/agignore
-    ~/.bin: configs/bin
+    ~/.asdfrc: configs/asdf/asdfrc
     ~/.Brewfile: configs/brewfile
-    ~/.config/git:
-      create: true
-      path: configs/git
-    ~/.config/iterm2:
-      create: true
-      path: configs/iterm2
-    ~/.config/nvim:
-      create: true
-      path: configs/nvim
-    ~/.config/kitty:
-      create: true
-      path: configs/kitty
-    ~/.config/karabiner:
-      create: true
-      path: configs/karabiner
+    ~/.config/git: configs/git
+    ~/.config/iterm2: configs/iterm2
+    ~/.config/nvim: configs/nvim
+    ~/.config/kitty: configs/kitty
+    ~/.config/karabiner: configs/karabiner
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
     ~/.irbrc: configs/irbrc
-    ~/.macos: configs/macos
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
     ~/.rspec: configs/rspec
@@ -35,7 +28,7 @@
     ~/.terminfo: configs/terminfo
     ~/.tmux.colors: configs/tmux.colors
     ~/.tmux.conf: configs/tmux.conf
-    ~/.tool-versions: configs/tool-versions
+    ~/.tool-versions: configs/asdf/tool-versions
     ~/.vim: configs/nvim # Legacy vim
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zplug: configs/zplug
@@ -55,11 +48,33 @@
       path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
-  - [touch ~/.hushlogin, Hush the last login prompt]
-  - [mkdir -p ~/src, Create the local working src filder]
+  - description: Install login items
+    command: bin/login-items.sh
+    stdout: false
 
-  # Run the system setup
-  - [sh ~/.system-setup.sh]
+  - description: Set Mac defaults
+    command: bin/macos.sh
 
-  # Install all of the vim plugs
-  - [nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall, Install Vim plugs]
+  - description: Hush the last login prompt
+    command: touch ~/.hushlogin
+
+  - description: Create the local working src folder
+    command: mkdir -p ~/src
+
+  - description: Install Homebrew
+    command: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  - description: Install system Brewfile
+    command: brew bundle --global
+
+  - description: Set shell to zsh
+    command: chsh -s $(which zsh)
+
+  - description: Install ASDF plugins
+    command: asdf plugin add ruby && asdf plugin add erlang && asdf plugin add elixir && asdf plugin add node
+
+  - description: Install ASDF runtimes
+    command: cd && asdf install
+
+  - description: Install all of the vim plugs
+    command: nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall
