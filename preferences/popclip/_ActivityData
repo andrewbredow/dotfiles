@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build-3032</key>
+	<dict>
+		<key>decisions</key>
+		<dict>
+			<key>com.apple.Safari</key>
+			<array>
+				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTabGroup, AXWebArea]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXRadioButton][subrole:AXTabButton][parents:AXGroup, AXRadioButton, AXApplication, AXWindow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXGroup, AXRadioButton, AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXHeading, AXLink, AXGroup, AXWindow, AXApplication]</string>
+				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Safari][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXGroup, AXToolbar, AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+			</array>
+			<key>com.apple.coreservices.uiagent</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.coreservices.uiagent][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.finder</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.finder][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:multi][cursors:arrow]</string>
+			</array>
+			<key>com.apple.systempreferences</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.pilotmoon.popclip</key>
+			<array>
+				<string>app 0 app+blocked-apps [app:com.pilotmoon.popclip]</string>
+			</array>
+			<key>net.kovidgoyal.kitty</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:pointing-hand]</string>
+			</array>
+			<key>net.matthewpalmer.Rocket</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:net.matthewpalmer.Rocket][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.matthewpalmer.Rocket][trigger:single][cursors:beam]</string>
+			</array>
+		</dict>
+	</dict>
+	<key>unclassified-cursors</key>
+	<dict>
+		<key>:ACI0:</key>
+		<string>com.pixelmatorteam.pixelmator</string>
+		<key>:BxBjCgKBQFBUKhUFgUBQxg0:</key>
+		<string>com.googlecode.iterm2</string>
+		<key>:CQx8iBAhQoSIsYCCiLCBAA0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:CRLGchpDgQIFChREqBBBgQIFCmM5jQE0:</key>
+		<string>com.apple.Terminal</string>
+		<key>:CRQQcPDx9x8HDhw4cODAgQMHjv/++OCAAA0:</key>
+		<string>com.culturedcode.ThingsMac</string>
+		<key>:Cg54GDZwjGm+CDFiyCCBBxJI4AE0:</key>
+		<string>com.apple.Safari</string>
+		<key>:CxEABDBAAQlEEEIQgQQ04AchCFlIIxELIAA0:</key>
+		<string>com.apple.Safari</string>
+		<key>:CxEABDBAAQlEEEIQgQw04AchCVlIIxEPIAA0:</key>
+		<string>com.google.Chrome</string>
+		<key>:DA5AgDuojqqoiqqr2oAJKIACaIAMiH80:</key>
+		<string>com.phaseone.captureone13</string>
+		<key>:DAmAABR/FkABGEB/BhSAAA0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:Dg7gAUgAEoAEIMHPHwAGgD8/SAASgAQgAXgA0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:DhEBwAGQAMQAwYBAIGAIYAKwgEcYEAFkAAnAAWAACAA0:</key>
+		<string>com.apple.Safari</string>
+		<key>:DhEBwAHQAMQAwYBgIGAIYAKwwEccEAEkAA1AASAACAA0:</key>
+		<string>com.google.Chrome</string>
+		<key>:EBDAA0ACQAJAAlAKXDp2bgPAA8B2blw6WBpAAkACQALAAw0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:EBDgByAEoAWgBaAFv/2Bgf2//b+Bgb/9oAWgBaAFIATgBw0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:EBDwAAwDBgYCBAEI+Qn5CQEIAgQGBgwP+B0AOABwAOAAQA0:</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>:EBDwAAwDBgZiBGEI+Qn5CWEIYgQGBgwP+B0AOABwAOAAQA0:</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>:EBMYAAQAUABYALANNBC2TfGt9i/9f/2/+L/6v/Rf4A/gL1AoIBdACA0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:EhIAA8ByADQCzRY0W8FtwrYt+Lft/3T/pa8WvBrgvwB/APwFKBRALgBCAA0:</key>
+		<string>com.microsoft.Excel</string>
+		<key>:Li4AAPgHAAAA4P8fAAAA/v8fAADg//8fAAD8//8PAMD///8PAPj///8HAP////8D4P////8B+P///38A/////z/g/////x/4/////wf//////8P/P/j///j/A/j/f/5/OPz/n/+fP///5//jjv///f+85////z+D+f///897/v///+OO//////nz////fzj8////PwD+////Pxj///v//4//f/7//8f/n////+P/5/////n/8f////8//P////8P/v////+B/////3/A/////w/g/////wH4////fwD8////DwD+////AQD///8/AAD///8DAID//38AAID//wcAAID/fwAAAAD+AQAA0:</key>
+		<string>com.apple.Safari</string>
+	</dict>
+</dict>
+</plist>

@@ -6,7 +6,7 @@ function main {
   run_as_sudo
 
   install_brew
-  install_asdf
+  # install_asdf
   install_iterm
   install_macos
   install_login_items

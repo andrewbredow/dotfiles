@@ -7,7 +7,7 @@
 - link:
     ~/.agignore: configs/agignore
     ~/.bin: configs/bin
-    ~/.brewfile: configs/brewfile
+    ~/.Brewfile: configs/brewfile
     ~/.config/git:
       create: true
       path: configs/git
@@ -44,6 +44,15 @@
     ~/Library/Preferences/com.mizage.direct.Divvy.plist:
       force: true
       path: preferences/com.mizage.direct.Divvy.plist
+    ~/Library/Preferences/com.pilotmoon.popclip.plist:
+      force: true
+      path: preferences/com.pilotmoon.popclip.plist
+    '~/Library/Application Support/PopClip':
+      force: true
+      path: preferences/popclip
+    ~/Library/Preferences/net.matthewpalmer.Rocket.plist:
+      force: true
+      path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
   - [touch ~/.hushlogin, Hush the last login prompt]
