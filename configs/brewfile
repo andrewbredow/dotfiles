@@ -21,6 +21,7 @@ brew 'the_silver_searcher'
 brew 'tmux'
 brew 'wget'
 brew 'zsh'
+brew 'zplug'
 
 cask_args appdir: '/Applications'
 #cask '1password'
