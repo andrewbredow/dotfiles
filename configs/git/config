@@ -2,7 +2,7 @@
   useconfigonly = true
 	name = Andrew Bredow
 	email = andrewbredow@github.com
-	signingkey = 279D9CE44F1A7B43
+	signingkey = 30DF8799A3A27880
 [github]
   user = andrewbredow
 [color]
