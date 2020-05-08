@@ -9,14 +9,11 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.alacritty.yml: configs/alacritty/alacritty.yml
     ~/.agignore: configs/agignore
     ~/.asdfrc: configs/asdf/asdfrc
     ~/.Brewfile: configs/brewfile
-    ~/.config/fish: configs/fish
     ~/.config/git: configs/git
     ~/.config/nvim: configs/nvim
-    ~/.config/kitty: configs/kitty
     ~/.config/karabiner: configs/karabiner
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
@@ -57,37 +54,60 @@
     command: mkdir -p ~/src
 
   - description: Install Homebrew
-    command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    command: |
+      if [[ "$OSTYPE" == "darwin"* ]]; then
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+      fi
 
   - description: Install system Brewfile
-    command: brew bundle --global
+    command: |
+      if [[ "$OSTYPE" == "darwin"* ]]; then
+        brew bundle --global
+      fi
 
   ## Todo: Install heroku plugins: heroku-accounts, heroku-pg-extras
 
   - description: Install login items
-    command: bin/login-items.sh
+    command: |
+      if [[ "$OSTYPE" == "darwin"* ]]; then
+        bin/login-items.sh
+      fi
     stdout: false
+
+  - description: Set shell to zsh
+    command: |
+      grep -qxF "$(which zsh)" /etc/shells || echo "$(which zsh)" | sudo tee -a /etc/shells
+      chsh -s $(which zsh)
+
+  - description: Install ZPlug
+    command: |
+      if [[ -d ~/.zplug ]] then
+        cd ~/.zplug
+        git fetch
+        git reset --hard origin/master
+      else
+        git clone https://github.com/zplug/zplug.git ~/.zplug
+      fi
 
   - description: Clone base16 shell colors
     command: |
-      if [ -d "~/.config/base16-shell" ] then
-        cd ~/.config
+      if [[ -d ~/.config/base16-shell ]] then
+        cd ~/.config/base16-shell
         git fetch
         git reset --hard origin/master
       else
         git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
       fi
 
-  - description: install fisher package manager
-    command: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-
-  - description: Set shell to fish
-    command: |
-      grep -qxF '/usr/local/bin/fish' /etc/shells || echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
-      chsh -s /usr/local/bin/fish
-
   - description: Install ASDF plugins
-    command: asdf plugin add ruby && asdf plugin add erlang && asdf plugin add elixir && asdf plugin add nodejs
+    command: |
+      asdf plugin list | grep -q ruby || {
+        asdf plugin add ruby
+      }
+      asdf plugin list | grep -q nodejs || {
+        asdf plugin add nodejs
+      }
+
 
   - description: Install ASDF runtimes
     command: cd && asdf install
