@@ -9,11 +9,12 @@
 - clean: ['~', '~/.config']
 
 - link:
+    ~/.alacritty.yml: configs/alacritty/alacritty.yml
     ~/.agignore: configs/agignore
     ~/.asdfrc: configs/asdf/asdfrc
     ~/.Brewfile: configs/brewfile
+    ~/.config/fish: configs/fish
     ~/.config/git: configs/git
-    ~/.config/iterm2: configs/iterm2
     ~/.config/nvim: configs/nvim
     ~/.config/kitty: configs/kitty
     ~/.config/karabiner: configs/karabiner
@@ -24,14 +25,12 @@
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
     ~/.rspec: configs/rspec
-    ~/.system-setup.sh: configs/system-setup.sh
     ~/.terminfo: configs/terminfo
     ~/.tmux.colors: configs/tmux.colors
     ~/.tmux.conf: configs/tmux.conf
     ~/.tool-versions: configs/asdf/tool-versions
     ~/.vim: configs/nvim # Legacy vim
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
-    ~/.zplug: configs/zplug
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
     ~/Library/Preferences/com.mizage.direct.Divvy.plist:
@@ -48,10 +47,6 @@
       path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
-  - description: Install login items
-    command: bin/login-items.sh
-    stdout: false
-
   # - description: Set Mac defaults
   #   command: bin/macos.sh
 
@@ -62,16 +57,37 @@
     command: mkdir -p ~/src
 
   - description: Install Homebrew
-    command: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    command: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
   - description: Install system Brewfile
     command: brew bundle --global
 
-  - description: Set shell to zsh
-    command: chsh -s $(which zsh)
+  ## Todo: Install heroku plugins: heroku-accounts, heroku-pg-extras
+
+  - description: Install login items
+    command: bin/login-items.sh
+    stdout: false
+
+  - description: Clone base16 shell colors
+    command: |
+      if [ -d "~/.config/base16-shell" ] then
+        cd ~/.config
+        git fetch
+        git reset --hard origin/master
+      else
+        git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+      fi
+
+  - description: install fisher package manager
+    command: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+
+  - description: Set shell to fish
+    command: |
+      grep -qxF '/usr/local/bin/fish' /etc/shells || echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+      chsh -s /usr/local/bin/fish
 
   - description: Install ASDF plugins
-    command: asdf plugin add ruby && asdf plugin add erlang && asdf plugin add elixir && asdf plugin add node
+    command: asdf plugin add ruby && asdf plugin add erlang && asdf plugin add elixir && asdf plugin add nodejs
 
   - description: Install ASDF runtimes
     command: cd && asdf install
@@ -81,6 +97,3 @@
 
   - description: Install vim plugins
     command: nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall
-
-  - description: Set dark theme
-    command: dark
