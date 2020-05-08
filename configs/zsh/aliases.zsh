@@ -1,7 +1,7 @@
 # Projects
-alias cdg='cd /Users/andrew/src/github/github'
 alias dotfiles='cd /Users/andrew/src/dotfiles'
 alias github='cd /Users/andrew/src/github'
+alias sail='cd /Users/andrew/src/sailplan/sailboat-guide'
 
 # Local tmux
 alias t='tmux'
@@ -34,11 +34,13 @@ alias grbi='git rebase -i'
 alias gst='git status'
 
 # Ruby/Rails
+alias be='bundle exec'
 alias rs='rails server'
 alias rc='rails console'
-alias rr='rake routes | fzf'
-alias rdm='rake db:migrate'
-alias rdr='rake db:rollback'
+alias rr='bundle exec rake routes | fzf'
+alias rdm='bundle exec rake db:migrate'
+alias rdr='bundle exec rake db:rollback'
+
 
 # Elixir/Phoenix
 alias mt='mix test'

@@ -1,9 +1,10 @@
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
-export ASDF_DIR=$(brew --prefix asdf)
 source $ZPLUG_HOME/init.zsh
 
+PURE_GIT_PULL=0
+
 zplug "mafredri/zsh-async"
-zplug "sindresorhus/pure", use:pure.zsh, as:theme
+zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "Tarrasch/zsh-autoenv"
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-autosuggestions"
@@ -11,7 +12,6 @@ zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search", defer:3
 zplug "chriskempson/base16-shell", defer:0
-zplug "kiurchv/asdf.plugin.zsh", defer:2
 
 # Check for uninstalled plugins.
 if ! zplug check --verbose; then
@@ -74,7 +74,14 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
-eval "$(nodenv init -)"
-eval "$(rbenv init - zsh)"
-
 export KITTY_CONFIG_DIRECTORY='~/.config/kitty/kitty.conf'
+
+# Homebrew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+  autoload -Uz compinit
+  compinit
+fi
+
+# Initialize asdf
+source $(brew --prefix asdf)/asdf.sh
