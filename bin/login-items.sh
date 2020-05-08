@@ -3,6 +3,7 @@
 login_items=(
   "Alfred 4.app"
   "Bartender 3.app"
+  "Better Blocker"
   "KeepingYouAwake.app"
   "Divvy.app"
   "Dropbox.app"
