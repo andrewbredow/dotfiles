@@ -2,25 +2,175 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>build-3032</key>
+	<key>build-1003032</key>
 	<dict>
 		<key>decisions</key>
 		<dict>
+			<key></key>
+			<array>
+				<string>probe 0 probe+require-beam [trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [trigger:multi][cursors:arrow]</string>
+			</array>
+			<key>85C27NK92C.com.flexibits.fantastical2.mac.helper</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:beam, pointing-hand]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow, pointing-hand][role:AXLink][subrole:AXTextLink][parents:AXLink, AXTextArea, AXScrollArea]</string>
+				<string>discover 0 discover+blocked-roles [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow, pointing-hand][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow][role:AXLink][subrole:AXTextLink][parents:AXLink, AXTextArea, AXScrollArea]</string>
+				<string>discover 1 fallback [app:85C27NK92C.com.flexibits.fantastical2.mac.helper][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXApplication, AXWindow, AXStaticText]</string>
+			</array>
+			<key>at.eggerapps.Postico</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:at.eggerapps.Postico][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:at.eggerapps.Postico][trigger:multi][cursors:arrow, beam][role:AXTextField][subrole:][parents:AXWindow, AXTable, AXRow, AXApplication, AXScrollArea, AXTextField, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:hold][cursors:arrow]</string>
+				<string>discover 1 fallback [app:at.eggerapps.Postico][trigger:multi][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:at.eggerapps.Postico][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:at.eggerapps.Postico][trigger:drag][cursors:arrow]</string>
+				<string>discover 1 fallback [app:at.eggerapps.Postico][trigger:hold][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:at.eggerapps.Postico][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>better.fyi.mac</key>
+			<array>
+				<string>discover 1 fallback [app:better.fyi.mac][trigger:single][cursors:arrow][role:AXLink][subrole:AXTextLink][parents:AXLink, AXMenu, AXMenuBarItem, AXApplication, AXScrollArea, AXMenuBar, AXTextArea, AXMenuItem]</string>
+				<string>probe 0 probe+require-beam [app:better.fyi.mac][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:better.fyi.mac][trigger:hold][cursors:arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:better.fyi.mac][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+				<string>discover 0 discover+blocked-roles [app:better.fyi.mac][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXMenuBar, AXApplication, AXButton, AXPopover]</string>
+			</array>
 			<key>com.agilebits.onepassword7</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:com.agilebits.onepassword7][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.agilebits.onepassword7][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXGroup, AXTextArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.agilebits.onepassword7][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.agilebits.onepassword7][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:com.agilebits.onepassword7][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXStaticText, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.agilebits.onepassword7][trigger:single][cursors:arrow][role:AXCell][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXGroup, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.agilebits.onepassword7][trigger:single][cursors:beam, arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.agilebits.onepassword7][trigger:drag][cursors:beam, arrow][role:AXSlider][subrole:][parents:AXCell, AXSplitGroup, AXTabGroup, AXScrollArea, AXRow, AXGroup, AXSlider, AXTable, AXWindow, AXPopover, AXApplication]</string>
 				<string>probe 0 probe+require-beam [app:com.agilebits.onepassword7][trigger:hold][cursors:arrow]</string>
-				<string>discover 0 discover+blocked-roles [app:com.agilebits.onepassword7][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+				<string>discover 1 fallback [app:com.agilebits.onepassword7][trigger:single][cursors:beam][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>discover 1 fallback [app:com.agilebits.onepassword7][trigger:single][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.agilebits.onepassword7][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+			</array>
+			<key>com.agilebits.onepassword7-updater</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.agilebits.onepassword7-updater][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.apple.ActivityMonitor</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.ActivityMonitor][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.ActivityMonitor][trigger:shift][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.ActivityMonitor][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.apple.AddressBook</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.AddressBook][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AddressBook][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.AddressBook][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.AddressBook][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.AddressBook][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.apple.AirPlayUIAgent</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.AirPlayUIAgent][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>com.apple.AppStore</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:single][cursors:arrow]</string>
-				<string>discover 1 fallback [app:com.apple.AppStore][trigger:single][cursors:arrow][role:AXWindow][subrole:AXDialog][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:single][cursors:resize]</string>
 				<string>probe 0 probe+blocked-triggers [app:com.apple.AppStore][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.AppStore][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AppStore][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.AppStore][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.apple.AppStore][trigger:multi][cursors:arrow, beam][role:AXTextField][subrole:AXSearchField][parents:AXGroup, AXWindow, AXApplication, AXTextField, AXSplitGroup]</string>
+			</array>
+			<key>com.apple.AskPermissionUI</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.AskPermissionUI][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.AskPermissionUI][trigger:single][cursors:pointing-hand]</string>
+			</array>
+			<key>com.apple.AuthKitUI.AKAppSSOExtension</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.apple.AuthKitUI.AKAppSSOExtension][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXGroup, AXApplication, AXButton, AXWindow, AXSheet]</string>
+			</array>
+			<key>com.apple.CaptiveNetworkAssistant</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.CaptiveNetworkAssistant][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.CaptiveNetworkAssistant][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.CaptiveNetworkAssistant][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.CaptiveNetworkAssistant][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.apple.Console</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Console][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Console][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Console][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Console][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Console][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Console][trigger:drag][cursors:resize]</string>
+			</array>
+			<key>com.apple.CoreLocationAgent</key>
+			<array>
+				<string>discover 1 fallback [app:com.apple.CoreLocationAgent][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXApplication, AXWindow, AXStaticText]</string>
+			</array>
+			<key>com.apple.Dictionary</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Dictionary][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>com.apple.DiskUtility</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:com.apple.DiskUtility][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.apple.DiskUtility][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXStaticText, AXApplication, AXSplitGroup, AXWindow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.DiskUtility][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.DiskUtility][trigger:single][cursors:arrow, beam, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.DiskUtility][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.DiskUtility][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.DiskUtility][trigger:hold][cursors:arrow]</string>
+			</array>
+			<key>com.apple.FaceTime</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.FaceTime][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.FaceTime][trigger:drag][cursors:arrow, resize]</string>
+			</array>
+			<key>com.apple.FollowUpUI</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.FollowUpUI][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.FontBook</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.FontBook][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.FontBook][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.apple.Home</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Home][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Home][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Home][trigger:single][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Home][trigger:drag][cursors:arrow]</string>
 			</array>
 			<key>com.apple.KeyboardSetupAssistant</key>
 			<array>
@@ -28,24 +178,161 @@
 			</array>
 			<key>com.apple.LocalAuthentication.UIAgent</key>
 			<array>
-				<string>probe 0 probe+require-beam [app:com.apple.LocalAuthentication.UIAgent][trigger:drag][cursors:arrow]</string>
-				<string>probe 0 probe+require-beam [app:com.apple.LocalAuthentication.UIAgent][trigger:hold][cursors:arrow]</string>
 				<string>probe 0 probe+require-beam [app:com.apple.LocalAuthentication.UIAgent][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.Music</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Music][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.NetAuthAgent</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.NetAuthAgent][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.apple.NetAuthAgent][trigger:drag][cursors:arrow][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>discover 1 fallback [app:com.apple.NetAuthAgent][trigger:single][cursors:arrow][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+			</array>
+			<key>com.apple.Notes</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Notes][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Notes][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Notes][trigger:single][cursors:arrow, pointing-hand, beam][role:AXCell][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.apple.Notes][trigger:drag][cursors:arrow, pointing-hand, beam][role:AXCell][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Notes][trigger:single][cursors:arrow, pointing-hand, beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXHeading, AXLink, AXGroup, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Notes][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXApplication, AXScrollArea, AXGroup, AXTextArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Notes][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Notes][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.apple.Notes][trigger:single][cursors:arrow, pointing-hand][role:AXLink][subrole:AXTextLink][parents:AXLink, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTextArea, AXSplitGroup]</string>
+			</array>
+			<key>com.apple.PIPAgent</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.apple.PIPAgent][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+			</array>
+			<key>com.apple.PhotoBooth</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.PhotoBooth][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.PhotoBooth][trigger:drag][cursors:resize]</string>
+			</array>
+			<key>com.apple.Photos</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Photos][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Photos][trigger:shift][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Photos][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Photos][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Photos][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Photos][trigger:hold][cursors:arrow]</string>
+			</array>
+			<key>com.apple.Preview</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Preview][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Preview][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.apple.Preview][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXPage, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Preview][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Preview][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Preview][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Preview][trigger:multi][cursors:arrow][role:AXGroup][subrole:][parents:AXCell, AXTable, AXPopover, AXRow, AXButton, AXWindow, AXApplication, AXGroup, AXScrollArea, AXToolbar]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Preview][trigger:multi][cursors:arrow][role:AXStaticText][subrole:][parents:AXCell, AXTable, AXPopover, AXRow, AXButton, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXToolbar]</string>
+				<string>discover 1 fallback [app:com.apple.Preview][trigger:multi][cursors:beam][role:AXStaticText][subrole:][parents:AXPage, AXSplitGroup, AXScrollArea, AXStaticText, AXGroup, AXWindow, AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Preview][trigger:single][cursors:beam][role:AXStaticText][subrole:][parents:AXPage, AXSplitGroup, AXScrollArea, AXStaticText, AXGroup, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Preview][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXPage, AXSplitGroup, AXScrollArea, AXStaticText, AXGroup, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Preview][trigger:drag][cursors:beam][role:AXGroup][subrole:][parents:AXPage, AXWindow, AXApplication, AXGroup, AXScrollArea, AXSplitGroup]</string>
+			</array>
+			<key>com.apple.ProblemReporter</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.ProblemReporter][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.ProblemReporter][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.ReportPanic</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.ReportPanic][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.SSMenuAgent</key>
+			<array>
+				<string>discover 1 fallback [app:com.apple.SSMenuAgent][trigger:single][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
 			</array>
 			<key>com.apple.Safari</key>
 			<array>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXLink, AXWindow, AXApplication]</string>
-				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand]</string>
-				<string>probe 0 probe+require-beam [app:com.apple.Safari][trigger:single][cursors:pointing-hand]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXHeading, AXLink, AXGroup, AXWindow, AXApplication]</string>
 				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTabGroup, AXWebArea]</string>
 				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXTabGroup, AXWebArea]</string>
-				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXGroup, AXRadioButton, AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:hold][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXTabGroup, AXWebArea]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:AXCloseButton][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXSplitGroup, AXButton, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXLink][subrole:][parents:AXLink, AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>probe 1 probe+browser-click-arrow-exception [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Safari][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow, pointing-hand][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTabGroup, AXWebArea]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXTextField][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXTextField, AXWebArea]</string>
 				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXRadioButton][subrole:AXTabButton][parents:AXGroup, AXRadioButton, AXApplication, AXWindow]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXWindow, AXApplication]</string>
-				<string>discover 1 fallback [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
-				<string>discover 0 discover+blocked-roles [app:com.apple.Safari][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.Safari][trigger:drag][cursors:arrow, beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXWindow, AXApplication]</string>
+			</array>
+			<key>com.apple.ScreenSharing</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.ScreenSharing][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.ScreenSharing][trigger:single][cursors::EhLgAWAYQJ6AhAQKFBSgUIBCAQoFKChQICEBeQgYRoAnAgARAIgAQAEAAg0:]</string>
+			</array>
+			<key>com.apple.SecurityAgent</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.SecurityAgent][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.SecurityAgent][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.SecurityAgent][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.SecurityAgent][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.SecurityAgent][trigger:drag][cursors:arrow]</string>
+			</array>
+			<key>com.apple.Siri</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Siri][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.SystemProfiler</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.SystemProfiler][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.SystemProfiler][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.SystemProfiler][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.SystemProfiler][trigger:drag][cursors:arrow]</string>
+			</array>
+			<key>com.apple.Terminal</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.apple.Terminal][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Terminal][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:single][cursors:arrow, :CRLGchpDgQIFChREqBBBgQIFCmM5jQE0:]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:single][cursors::CRLGchpDgQIFChREqBBBgQIFCmM5jQE0:]</string>
+				<string>discover 1 fallback [app:com.apple.Terminal][trigger:drag][cursors:beam][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.Terminal][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Terminal][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.Terminal][trigger:single][cursors:arrow, beam][role:AXGroup][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+			</array>
+			<key>com.apple.TextEdit</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.TextEdit][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.TextEdit][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.TextEdit][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.TextEdit][trigger:multi][cursors:arrow]</string>
+			</array>
+			<key>com.apple.TextInputMenuAgent</key>
+			<array>
+				<string>discover 1 fallback [app:com.apple.TextInputMenuAgent][trigger:single][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.TextInputMenuAgent][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+			</array>
+			<key>com.apple.UserNotificationCenter</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.UserNotificationCenter][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.WebKit.WebContent</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.apple.WebKit.WebContent][trigger:single][cursors:arrow, pointing-hand][role:AXButton][subrole:][parents:AXButton, AXCell, AXRow]</string>
+				<string>discover 1 fallback [app:com.apple.WebKit.WebContent][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXGroup, AXRow, AXStaticText, AXCell]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.WebKit.WebContent][trigger:single][cursors:arrow][role:AXCheckBox][subrole:][parents:AXRow, AXCheckBox]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.WebKit.WebContent][trigger:single][cursors:arrow, pointing-hand][role:AXButton][subrole:][parents:AXButton, AXRow]</string>
+			</array>
+			<key>com.apple.appkit.xpc.openAndSavePanelService</key>
+			<array>
+				<string>discover 1 fallback [app:com.apple.appkit.xpc.openAndSavePanelService][trigger:single][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.appkit.xpc.openAndSavePanelService][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton]</string>
+			</array>
+			<key>com.apple.archiveutility</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.archiveutility][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>com.apple.coreservices.uiagent</key>
 			<array>
@@ -55,74 +342,566 @@
 			<array>
 				<string>app 0 app+blocked-apps [app:com.apple.dock]</string>
 			</array>
+			<key>com.apple.dt.Xcode</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.dt.Xcode][trigger:single][cursors:arrow]</string>
+			</array>
 			<key>com.apple.finder</key>
 			<array>
-				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:hold][cursors:arrow]</string>
 				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:single][cursors:arrow]</string>
 				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.apple.finder][trigger:single][cursors:arrow][role:AXGroup][subrole:][parents:AXGroup, AXScrollArea, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:hold][cursors:arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.finder][trigger:single][cursors:arrow][role:AXImage][subrole:][parents:AXImage, AXUnknown, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 1 fallback [app:com.apple.finder][trigger:single][cursors:arrow, pointing-hand][role:AXGroup][subrole:][parents:AXGroup, AXScrollArea, AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.finder][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:drag][cursors:resize]</string>
+				<string>discover 1 fallback [app:com.apple.finder][trigger:single][cursors:arrow, beam][role:AXGroup][subrole:][parents:AXGroup, AXScrollArea, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.finder][trigger:shift][cursors:arrow]</string>
 				<string>probe 0 probe+blocked-triggers [app:com.apple.finder][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.apple.findmy</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.findmy][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.findmy][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.findmy][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.findmy][trigger:drag][cursors:arrow, resize]</string>
+			</array>
+			<key>com.apple.helpviewer</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.helpviewer][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.iBooksX</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.iBooksX][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.iCal</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.iCal][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.iCal][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.apple.iCal][trigger:multi][cursors:beam][role:AXTextField][subrole:][parents:AXGroup, AXWindow, AXApplication, AXTextField, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iCal][trigger:multi][cursors:arrow]</string>
 			</array>
 			<key>com.apple.iChat</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:com.apple.iChat][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iChat][trigger:hold][cursors:arrow]</string>
 				<string>probe 0 probe+blocked-triggers [app:com.apple.iChat][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.apple.iChat][trigger:single][cursors:arrow][role:AXSplitGroup][subrole:][parents:AXApplication, AXSplitGroup, AXWindow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iChat][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:com.apple.iChat][trigger:multi][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXWebArea]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.iChat][trigger:single][cursors:arrow, pointing-hand][role:AXButton][subrole:][parents:AXSplitGroup, AXButton, AXWindow, AXApplication, AXGroup, AXScrollArea, AXWebArea]</string>
+				<string>discover 1 fallback [app:com.apple.iChat][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXWindow, AXWebArea, AXStaticText, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iChat][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.iChat][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.apple.iChat][trigger:single][cursors:beam, arrow][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.apple.iChat][trigger:hold][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+			</array>
+			<key>com.apple.iWork.Numbers</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:single][cursors::ExMDADgAQAMAMgAQg4AwDgTbIHAEAXfIv07b3W4APHY34OoA3AFADAA2AOAAAAIA0:]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:shift][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:drag][cursors:resize]</string>
+				<string>discover 1 fallback [app:com.apple.iWork.Numbers][trigger:multi][cursors:arrow, beam][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:drag][cursors::CREQcKAgIug9Cj5E+KB4L4gIGxwQAA0:]</string>
+				<string>discover 1 fallback [app:com.apple.iWork.Numbers][trigger:single][cursors:arrow][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.iWork.Numbers][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.iWork.Numbers][trigger:single][cursors:arrow, :EQkgCGAwsK4wdzYo2NwZ6xoYDCAIAA0:]</string>
+			</array>
+			<key>com.apple.installer</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.installer][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.installer][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.installer][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.installer][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.apple.loginwindow</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.loginwindow][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.loginwindow][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.loginwindow][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.loginwindow][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.loginwindow][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.loginwindow][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.apple.notificationcenterui</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.apple.notificationcenterui][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.notificationcenterui][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXStaticText, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 1 fallback [app:com.apple.notificationcenterui][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXApplication, AXWindow, AXStaticText]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.notificationcenterui][trigger:drag][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.notificationcenterui][trigger:drag][cursors:arrow][role:AXStaticText][subrole:][parents:AXStaticText, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.notificationcenterui][trigger:single][cursors:arrow, pointing-hand][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.apple.notificationcenterui][trigger:single][cursors:arrow][role:AXWindow][subrole:AXNotificationCenterBanner][parents:AXWindow, AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.apple.notificationcenterui][trigger:single][cursors:arrow, resize][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+			</array>
+			<key>com.apple.print.PrinterProxy</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.print.PrinterProxy][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.apple.storeuid</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.storeuid][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>com.apple.systempreferences</key>
 			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:multi][cursors:arrow]</string>
 				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:single][cursors:arrow]</string>
 				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.systempreferences][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.systempreferences][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:single][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:drag][cursors:other]</string>
+				<string>discover 1 fallback [app:com.apple.systempreferences][trigger:single][cursors:arrow, beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.apple.systempreferences][trigger:single][cursors:other]</string>
+			</array>
+			<key>com.apple.systemuiserver</key>
+			<array>
+				<string>app 0 app+blocked-apps [app:com.apple.systemuiserver]</string>
+			</array>
+			<key>com.apple.wifi.WiFiAgent</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.apple.wifi.WiFiAgent][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.apple.wifi.WiFiAgent][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.authy.authy-mac</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.authy.authy-mac][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.authy.authy-mac][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.authy.authy-mac][trigger:single][cursors:beam, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.authy.authy-mac][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.authy.authy-mac][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.authy.authy-mac][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.authy.authy-mac][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.choosyosx.Choosy</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.choosyosx.Choosy][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.choosyosx.Choosy][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.choosyosx.Choosy][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.choosyosx.Choosy][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.choosyosx.Choosy][trigger:single][cursors:beam, pointing-hand, arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.choosyosx.Choosy][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.choosyosx.Choosy][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 0 discover+blocked-roles [app:com.choosyosx.Choosy][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXCell, AXButton, AXTable, AXRow, AXWindow, AXApplication, AXScrollArea, AXTabGroup]</string>
+			</array>
+			<key>com.culturedcode.ThingsMac</key>
+			<array>
+				<string>discover 1 fallback [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow][role:AXWindow][subrole:AXSystemDialog][parents:AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow][role:AXTextArea][subrole:][parents:AXApplication, AXWindow, AXTextArea]</string>
+				<string>probe 0 probe+require-beam [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.culturedcode.ThingsMac][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.culturedcode.ThingsMac][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.culturedcode.ThingsMac][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow][role:AXLink][subrole:AXTextLink][parents:AXLink, AXCell, AXTable, AXRow, AXWindow, AXApplication, AXScrollArea, AXTextArea]</string>
+				<string>discover 1 fallback [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow, pointing-hand][role:AXLink][subrole:AXTextLink][parents:AXLink, AXCell, AXTable, AXRow, AXWindow, AXApplication, AXScrollArea, AXTextArea]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.culturedcode.ThingsMac][trigger:single][cursors:arrow, beam][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.culturedcode.ThingsMac][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXCell, AXTable, AXWindow, AXRow, AXApplication, AXScrollArea, AXTextArea]</string>
+			</array>
+			<key>com.docker.docker</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.docker.docker][trigger:single][cursors:arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.docker.docker][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+			</array>
+			<key>com.echodot.Red</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.echodot.Red][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.echodot.Red][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.echodot.Red][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.echodot.Red][trigger:shift][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.echodot.Red][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.echodot.Red][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.echodot.Red][trigger:single][cursors:beam, arrow]</string>
+				<string>discover 1 fallback [app:com.echodot.Red][trigger:drag][cursors:arrow][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.echodot.Red][trigger:single][cursors:arrow][role:AXTextArea][subrole:][parents:AXWindow, AXApplication, AXScrollArea, AXGroup, AXTextArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.echodot.Red][trigger:single][cursors:arrow, beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXList, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.echodot.Red][trigger:single][cursors:arrow, beam][role:AXSplitGroup][subrole:][parents:AXApplication, AXSplitGroup, AXWindow]</string>
+				<string>discover 1 fallback [app:com.echodot.Red][trigger:drag][cursors:arrow, beam][role:AXSplitGroup][subrole:][parents:AXApplication, AXSplitGroup, AXWindow]</string>
+			</array>
+			<key>com.electron.docker-frontend</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.electron.docker-frontend][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.electron.docker-frontend][trigger:single][cursors:pointing-hand]</string>
+			</array>
+			<key>com.figma.Desktop</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:single][cursors::DA7wgBAEIkABGIZhGIACJEAEAgCYAQQ0:, :DhEBwAHQAMQAw4BgIGAIYAKwgUccEAFkAA3AASAACAA0:]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:single][cursors::DA7wgBAEIkABGIZhGIACJEAEAgCYAQQ0:]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:drag][cursors::DA7wgBAEIkABGIZhGIACJEAEAgCYAQQ0:, :DhEBwAHQAMQAw4BgIGAIYAKwgUccEAFkAA3AASAACAA0:]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.figma.Desktop][trigger:single][cursors:pointing-hand]</string>
+			</array>
+			<key>com.flexibits.fantastical2.mac</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.flexibits.fantastical2.mac][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXWindow, AXButton, AXPopover, AXApplication, AXScrollArea, AXGroup, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.flexibits.fantastical2.mac][trigger:single][cursors:arrow, pointing-hand][role:AXLink][subrole:AXTextLink][parents:AXLink, AXPopover, AXWindow, AXApplication, AXScrollArea, AXGroup, AXTextArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.flexibits.fantastical2.mac][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.flexibits.fantastical2.mac][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:single][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.flexibits.fantastical2.mac][trigger:multi][cursors:arrow, resize]</string>
+			</array>
+			<key>com.freron.MailMate</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.freron.MailMate][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.freron.MailMate][trigger:drag][cursors:beam][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:drag][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.freron.MailMate][trigger:multi][cursors:beam][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>probe 0 probe+require-beam [app:com.freron.MailMate][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.freron.MailMate][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.freron.MailMate][trigger:drag][cursors:beam, arrow][role:AXTextField][subrole:][parents:AXApplication, AXWindow, AXTextField]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.freron.MailMate][trigger:single][cursors:beam, arrow]</string>
+			</array>
+			<key>com.gifox.gifox</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.gifox.gifox][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.google.Chrome</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:hold][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:hold][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.google.Chrome][trigger:single][cursors:beam][role:AXScrollArea][subrole:][parents:AXGroup, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>probe 1 probe+browser-click-beam-exception [app:com.google.Chrome][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.google.Chrome][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.google.Chrome][trigger:drag][cursors:beam][role:AXScrollArea][subrole:][parents:AXGroup, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 1 fallback [app:com.google.Chrome][trigger:drag][cursors:beam, arrow][role:AXScrollArea][subrole:][parents:AXGroup, AXApplication, AXScrollArea, AXWindow]</string>
+				<string>probe 1 probe+allow-arrow-select [app:com.google.Chrome][trigger:drag][cursors:beam, arrow]</string>
+				<string>discover 1 fallback [app:com.google.Chrome][trigger:single][cursors:arrow, beam][role:AXScrollArea][subrole:][parents:AXGroup, AXApplication, AXScrollArea, AXWindow]</string>
+			</array>
+			<key>com.googlecode.iterm2</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:drag][cursors::BxBjCgKBQCAQBAQCgUBQxg0:]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:single][cursors::BxBjCgKBQFBUKhUFgUBQxg0:]</string>
+				<string>discover 1 fallback [app:com.googlecode.iterm2][trigger:single][cursors:arrow, pointing-hand][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:single][cursors::BxBjCgKBQCAQBAQCgUBQxg0:]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:drag][cursors:arrow, :BxBjCgKBQCAQBAQCgUBQxg0:]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:single][cursors:arrow, :BxBjCgKBQFBUKhUFgUBQxg0:]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.googlecode.iterm2][trigger:single][cursors:beam, :BxBjCgKBQFBUKhUFgUBQxg0:][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWebArea, AXStaticText, AXScrollArea, AXTabGroup, AXGroup, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.googlecode.iterm2][trigger:single][cursors:arrow][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:drag][cursors:arrow, :BxBjCgKBQFBUKhUFgUBQxg0:]</string>
+				<string>probe 0 probe+require-beam [app:com.googlecode.iterm2][trigger:multi][cursors:arrow]</string>
 			</array>
 			<key>com.haystacksoftware.Arq</key>
 			<array>
+				<string>probe 0 probe+require-beam [app:com.haystacksoftware.Arq][trigger:single][cursors:resize]</string>
 				<string>probe 0 probe+require-beam [app:com.haystacksoftware.Arq][trigger:single][cursors:arrow]</string>
-				<string>probe 0 probe+require-beam [app:com.haystacksoftware.Arq][trigger:hold][cursors:arrow]</string>
-				<string>probe 0 probe+require-beam [app:com.haystacksoftware.Arq][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.haystacksoftware.Arq][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.haystacksoftware.ArqAgent</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.haystacksoftware.ArqAgent][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.haystacksoftware.ArqAgent][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.haystacksoftware.ArqAgent][trigger:drag][cursors:arrow]</string>
+			</array>
+			<key>com.helloresolven.Rested</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.helloresolven.Rested][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.helloresolven.Rested][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.helloresolven.Rested][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:com.helloresolven.Rested][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.helloresolven.Rested][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.helloresolven.Rested][trigger:drag][cursors:resize]</string>
+			</array>
+			<key>com.hindsightlabs.paprika.mac.v3</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.hindsightlabs.paprika.mac.v3][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.hindsightlabs.paprika.mac.v3][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.hindsightlabs.paprika.mac.v3][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.hindsightlabs.paprika.mac.v3][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:com.hindsightlabs.paprika.mac.v3][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.hindsightlabs.paprika.mac.v3][trigger:single][cursors:pointing-hand]</string>
+			</array>
+			<key>com.incident57.Muzzle</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.incident57.Muzzle][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.microsoft.Excel</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:hold][cursors:arrow]</string>
+				<string>discover 1 fallback [app:com.microsoft.Excel][trigger:drag][cursors:beam][role:AXTextField][subrole:][parents:AXWindow, AXApplication, AXTextField, AXSheet]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:single][cursors::EBDgByAEoAWgBaAFv/2Bgf2//b+Bgb/9oAWgBaAFIATgBw0:]</string>
+				<string>discover 1 fallback [app:com.microsoft.Excel][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXApplication, AXWindow, AXTextArea]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.Excel][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.microsoft.Excel][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.microsoft.VSCode</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.microsoft.VSCode][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.VSCode][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.VSCode][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.VSCode][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.VSCode][trigger:single][cursors:other, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.microsoft.VSCode][trigger:drag][cursors:resize]</string>
+				<string>discover 1 fallback [app:com.microsoft.VSCode][trigger:single][cursors:arrow, pointing-hand][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+			</array>
+			<key>com.microsoft.autoupdate2</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.microsoft.autoupdate2][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.mizage.direct.Divvy</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.mizage.direct.Divvy][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.mizage.direct.Divvy][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.mizage.direct.Divvy][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXGroup, AXStaticText, AXApplication, AXWindow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.mizage.direct.Divvy][trigger:single][cursors:arrow][role:AXButton][subrole:][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:com.mizage.direct.Divvy][trigger:single][cursors:arrow][role:AXRadioGroup][subrole:][parents:AXApplication, AXWindow, AXRadioGroup]</string>
+				<string>discover 1 fallback [app:com.mizage.direct.Divvy][trigger:drag][cursors:arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>discover 1 fallback [app:com.mizage.direct.Divvy][trigger:drag][cursors:arrow][role:AXWindow][subrole:AXSystemDialog][parents:AXWindow, AXApplication]</string>
+			</array>
+			<key>com.mojang.minecraftlauncher</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.mojang.minecraftlauncher][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.mojang.minecraftlauncher][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.mojang.minecraftlauncher][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.nothingmagical.zoom-in</key>
+			<array>
+				<string>probe 0 probe+blocked-triggers [app:com.nothingmagical.zoom-in][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.nothingmagical.zoom-in][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.nothingmagical.zoom-in][trigger:single][cursors:arrow, beam]</string>
+			</array>
+			<key>com.opendns.OpenDNS-Diagnostic</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.opendns.OpenDNS-Diagnostic][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.opendns.OpenDNS-Diagnostic][trigger:single][cursors:beam]</string>
+			</array>
+			<key>com.opendns.osx.RoamingClientMenubar</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:com.opendns.osx.RoamingClientMenubar][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+			</array>
+			<key>com.phaseone.captureone13</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.phaseone.captureone13][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.phaseone.captureone13][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.phaseone.captureone13][trigger:single][cursors:arrow, :DA5AgDuojqqoiqqr2oAJKIACaIAMiH80:]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.phaseone.captureone13][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.phaseone.captureone13][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.phaseone.captureone13][trigger:single][cursors::DA5AgDuojqqoiqqr2oAJKIACaIAMiH80:]</string>
 			</array>
 			<key>com.pilotmoon.popclip</key>
 			<array>
 				<string>app 0 app+blocked-apps [app:com.pilotmoon.popclip]</string>
 			</array>
+			<key>com.runningwithcrayons.Alfred-Preferences</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.runningwithcrayons.Alfred-Preferences][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>com.spotify.client</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.spotify.client][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.spotify.client][trigger:single][cursors:arrow, beam][role:AXToolbar][subrole:][parents:AXToolbar, AXWindow, AXApplication]</string>
+				<string>discover 0 discover+blocked-roles [app:com.spotify.client][trigger:hold][cursors:arrow, beam][role:AXToolbar][subrole:][parents:AXToolbar, AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.spotify.client][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.spotify.client][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:com.spotify.client][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.spotify.client][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.spotify.client][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 0 discover+blocked-roles [app:com.spotify.client][trigger:drag][cursors:beam, arrow][role:AXToolbar][subrole:][parents:AXToolbar, AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:com.spotify.client][trigger:multi][cursors:arrow]</string>
+			</array>
 			<key>com.surteesstudios.Bartender</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:com.surteesstudios.Bartender][trigger:single][cursors:arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:com.surteesstudios.Bartender][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+				<string>discover 0 discover+blocked-roles [app:com.surteesstudios.Bartender][trigger:single][cursors:arrow][role:AXImage][subrole:][parents:AXImage, AXWindow, AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.surteesstudios.Bartender][trigger:single][cursors:arrow, beam]</string>
 			</array>
 			<key>com.tinyspeck.slackmacgap</key>
 			<array>
-				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors:pointing-hand]</string>
-				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:drag][cursors:arrow, pointing-hand]</string>
-				<string>probe 0 probe+blocked-triggers [app:com.tinyspeck.slackmacgap][trigger:single][cursors:arrow, beam]</string>
 				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:com.tinyspeck.slackmacgap][trigger:drag][cursors:beam, arrow][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 1 fallback [app:com.tinyspeck.slackmacgap][trigger:hold][cursors:beam][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
 				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:hold][cursors:pointing-hand]</string>
 				<string>probe 0 probe+blocked-triggers [app:com.tinyspeck.slackmacgap][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.tinyspeck.slackmacgap][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.tinyspeck.slackmacgap][trigger:multi][cursors:beam][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+				<string>discover 1 fallback [app:com.tinyspeck.slackmacgap][trigger:drag][cursors:beam][role:AXScrollArea][subrole:][parents:AXApplication, AXScrollArea, AXWindow]</string>
+				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors::EBDwAAwDBgZiBGEI+Qn5CWEIYgQGBgwP+B0AOABwAOAAQA0:]</string>
+				<string>probe 0 probe+require-beam [app:com.tinyspeck.slackmacgap][trigger:single][cursors:arrow, :EBDwAAwDBgZiBGEI+Qn5CWEIYgQGBgwP+B0AOABwAOAAQA0:]</string>
+			</array>
+			<key>com.uranusjr.macdown</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:com.uranusjr.macdown][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.uranusjr.macdown][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:com.uranusjr.macdown][trigger:multi][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.uranusjr.macdown][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.uranusjr.macdown][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:com.uranusjr.macdown][trigger:drag][cursors:beam, resize][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:com.uranusjr.macdown][trigger:single][cursors:beam][role:AXTextArea][subrole:][parents:AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>discover 1 fallback [app:com.uranusjr.macdown][trigger:drag][cursors:arrow, beam][role:AXGroup][subrole:][parents:AXList, AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:com.uranusjr.macdown][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:com.uranusjr.macdown][trigger:multi][cursors:arrow]</string>
+			</array>
+			<key>info.marcel-dierkes.KeepingYouAwake</key>
+			<array>
+				<string>discover 0 discover+blocked-roles [app:info.marcel-dierkes.KeepingYouAwake][trigger:single][cursors:arrow][role:AXMenuBarItem][subrole:AXMenuExtra][parents:AXMenuBar, AXApplication, AXMenuBarItem]</string>
+			</array>
+			<key>io.alacritty</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:io.alacritty][trigger:drag][cursors:beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:io.alacritty][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:io.alacritty][trigger:single][cursors:arrow, beam][role:AXRadioButton][subrole:AXTabButton][parents:AXGroup, AXRadioButton, AXApplication, AXWindow]</string>
+				<string>probe 0 probe+blocked-triggers [app:io.alacritty][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:io.alacritty][trigger:single][cursors:beam, pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:io.alacritty][trigger:multi][cursors:arrow]</string>
+			</array>
+			<key>io.mrarm.mcpelauncher.ui</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:io.mrarm.mcpelauncher.ui][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>it.bloop.airmail2</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:it.bloop.airmail2][trigger:single][cursors:arrow]</string>
 				<string>probe 0 probe+blocked-triggers [app:it.bloop.airmail2][trigger:single][cursors:beam]</string>
-				<string>discover 1 fallback [app:it.bloop.airmail2][trigger:drag][cursors:beam][role:AXStaticText][subrole:][parents:AXCell, AXTable, AXSplitGroup, AXRow, AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXWebArea]</string>
+				<string>discover 1 fallback [app:it.bloop.airmail2][trigger:multi][cursors:beam][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXWebArea]</string>
+				<string>discover 1 fallback [app:it.bloop.airmail2][trigger:drag][cursors:beam][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:it.bloop.airmail2][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:it.bloop.airmail2][trigger:hold][cursors:beam][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:it.bloop.airmail2][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:it.bloop.airmail2][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:it.bloop.airmail2][trigger:single][cursors:beam, arrow][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXWebArea]</string>
+				<string>discover 1 fallback [app:it.bloop.airmail2][trigger:single][cursors:arrow, pointing-hand][role:AXWebArea][subrole:][parents:AXSplitGroup, AXWindow, AXApplication, AXScrollArea, AXGroup, AXWebArea]</string>
+				<string>probe 0 probe+require-beam [app:it.bloop.airmail2][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:it.bloop.airmail2][trigger:single][cursors:beam, arrow]</string>
+			</array>
+			<key>keybase.Electron</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:keybase.Electron][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:keybase.Electron][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:keybase.Electron][trigger:single][cursors:arrow, :HBD+/w8wAIABAQAQEAAAwQEAkBsAAIfh/xAYHg+B4fEQGB4PgQEAcBgAALkBABAcAAABAwAY4P//AA0:]</string>
+			</array>
+			<key>net.kovidgoyal.calibre</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.calibre][trigger:single][cursors:arrow]</string>
 			</array>
 			<key>net.kovidgoyal.kitty</key>
 			<array>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow]</string>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow, resize]</string>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:drag][cursors:arrow]</string>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:drag][cursors:arrow, pointing-hand]</string>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:pointing-hand]</string>
-				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow, pointing-hand]</string>
 				<string>probe 0 probe+blocked-triggers [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:shift][cursors:pointing-hand]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.kovidgoyal.kitty][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:hold][cursors:arrow]</string>
+				<string>discover 1 fallback [app:net.kovidgoyal.kitty][trigger:drag][cursors:beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:pointing-hand]</string>
 				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:multi][cursors:arrow]</string>
-				<string>discover 1 fallback [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:net.kovidgoyal.kitty][trigger:single][cursors:arrow][role:AXGroup][subrole:AXLandmarkMain][parents:AXSplitGroup, AXWindow, AXApplication, AXGroup, AXScrollArea, AXTabGroup, AXWebArea]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.kovidgoyal.kitty][trigger:single][cursors:beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:net.kovidgoyal.kitty][trigger:shift][cursors:beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
 			</array>
 			<key>net.matthewpalmer.Rocket</key>
 			<array>
 				<string>probe 0 probe+require-beam [app:net.matthewpalmer.Rocket][trigger:single][cursors:arrow]</string>
-				<string>probe 0 probe+blocked-triggers [app:net.matthewpalmer.Rocket][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:net.matthewpalmer.Rocket][trigger:multi][cursors:arrow, beam][role:AXTextField][subrole:][parents:AXWindow, AXTable, AXRow, AXApplication, AXScrollArea, AXTabGroup, AXTextField]</string>
+				<string>probe 0 probe+require-beam [app:net.matthewpalmer.Rocket][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.matthewpalmer.Rocket][trigger:drag][cursors:arrow]</string>
 			</array>
 			<key>net.shinyfrog.bear</key>
 			<array>
-				<string>probe 0 probe+blocked-triggers [app:net.shinyfrog.bear][trigger:single][cursors:beam]</string>
-				<string>discover 1 fallback [app:net.shinyfrog.bear][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
 				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.shinyfrog.bear][trigger:single][cursors:arrow, beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.shinyfrog.bear][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.shinyfrog.bear][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:drag][cursors:arrow]</string>
+				<string>discover 1 fallback [app:net.shinyfrog.bear][trigger:drag][cursors:beam][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:single][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:net.shinyfrog.bear][trigger:drag][cursors:arrow, beam][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:multi][cursors:arrow]</string>
+				<string>discover 1 fallback [app:net.shinyfrog.bear][trigger:hold][cursors:beam][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+require-beam [app:net.shinyfrog.bear][trigger:drag][cursors:resize]</string>
+			</array>
+			<key>net.sonic-pi.app</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:net.sonic-pi.app][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:net.sonic-pi.app][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.sonic-pi.app][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:net.sonic-pi.app][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.sonic-pi.app][trigger:single][cursors:arrow, beam][role:AXCell][subrole:][parents:AXCell, AXSplitGroup, AXWebArea, AXScrollArea, AXTabGroup, AXRow, AXGroup, AXTable, AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:net.sonic-pi.app][trigger:drag][cursors:beam][role:AXApplication][subrole:][parents:AXApplication]</string>
+				<string>probe 0 probe+blocked-triggers [app:net.sonic-pi.app][trigger:single][cursors:arrow, beam]</string>
+				<string>discover 1 fallback [app:net.sonic-pi.app][trigger:drag][cursors:beam, arrow][role:AXApplication][subrole:][parents:AXApplication]</string>
+			</array>
+			<key>okta.ExtensionLauncher.Extension</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:okta.ExtensionLauncher.Extension][trigger:single][cursors:arrow]</string>
+				<string>discover 1 fallback [app:okta.ExtensionLauncher.Extension][trigger:single][cursors:arrow, pointing-hand][role:AXStaticText][subrole:][parents:AXWindow, AXApplication, AXGroup, AXScrollArea, AXStaticText, AXWebArea]</string>
+			</array>
+			<key>okta.ExtensionLauncher.Extension.Extension</key>
+			<array>
+				<string>discover 1 fallback [app:okta.ExtensionLauncher.Extension.Extension][trigger:single][cursors:arrow][role:AXWindow][subrole:AXUnknown][parents:AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:okta.ExtensionLauncher.Extension.Extension][trigger:single][cursors:arrow][role:AXTextField][subrole:][parents:AXToolbar, AXButton, AXTextField, AXWebArea, AXScrollArea, AXUnknown, AXGroup, AXWindow, AXPopover, AXApplication]</string>
+				<string>discover 1 fallback [app:okta.ExtensionLauncher.Extension.Extension][trigger:single][cursors:arrow][role:AXStaticText][subrole:][parents:AXLink, AXCell, AXHeading, AXRow, AXTable, AXScrollArea, AXGroup, AXStaticText, AXWebArea]</string>
+				<string>discover 0 discover+blocked-roles [app:okta.ExtensionLauncher.Extension.Extension][trigger:single][cursors:arrow][role:AXImage][subrole:][parents:AXToolbar, AXImage, AXButton, AXWebArea, AXScrollArea, AXUnknown, AXGroup, AXWindow, AXPopover, AXApplication]</string>
+			</array>
+			<key>org.mozilla.firefox</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:org.mozilla.firefox][trigger:single][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:org.mozilla.firefox][trigger:single][cursors:pointing-hand]</string>
+				<string>probe 0 probe+require-beam [app:org.mozilla.firefox][trigger:single][cursors:arrow, pointing-hand]</string>
+				<string>discover 1 fallback [app:org.mozilla.firefox][trigger:single][cursors:beam, pointing-hand][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 1 probe+browser-click-beam-exception [app:org.mozilla.firefox][trigger:single][cursors:beam, pointing-hand]</string>
+				<string>discover 1 fallback [app:org.mozilla.firefox][trigger:drag][cursors:arrow, beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 1 probe+allow-arrow-select [app:org.mozilla.firefox][trigger:drag][cursors:arrow, beam]</string>
+				<string>probe 0 probe+require-beam [app:org.mozilla.firefox][trigger:hold][cursors:pointing-hand]</string>
+				<string>discover 1 fallback [app:org.mozilla.firefox][trigger:single][cursors:beam][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>probe 1 probe+browser-click-beam-exception [app:org.mozilla.firefox][trigger:single][cursors:beam]</string>
+				<string>probe 0 probe+require-beam [app:org.mozilla.firefox][trigger:single][cursors:arrow, pointing-hand][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+				<string>discover 1 fallback [app:org.mozilla.firefox][trigger:drag][cursors:arrow, pointing-hand][role:AXWindow][subrole:AXStandardWindow][parents:AXWindow, AXApplication]</string>
+			</array>
+			<key>org.pqrs.Karabiner-Elements.Preferences</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:org.pqrs.Karabiner-Elements.Preferences][trigger:single][cursors:arrow]</string>
+			</array>
+			<key>us.zoom.xos</key>
+			<array>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:hold][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:drag][cursors:arrow]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:single][cursors:arrow]</string>
+				<string>discover 0 discover+blocked-roles [app:us.zoom.xos][trigger:drag][cursors:arrow][role:AXButton][subrole:AXCloseButton][parents:AXButton, AXWindow, AXApplication]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:single][cursors:arrow, resize]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:drag][cursors:arrow, resize]</string>
+				<string>probe 0 probe+blocked-triggers [app:us.zoom.xos][trigger:single][cursors:beam, arrow]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:drag][cursors:resize]</string>
+				<string>probe 0 probe+require-beam [app:us.zoom.xos][trigger:multi][cursors:arrow]</string>
+				<string>probe 0 probe+blocked-triggers [app:us.zoom.xos][trigger:single][cursors:beam, arrow][role:AXTextArea][subrole:][parents:AXGroup, AXWindow, AXTextArea, AXApplication, AXScrollArea, AXSplitGroup]</string>
+				<string>probe 0 probe+blocked-triggers [app:us.zoom.xos][trigger:single][cursors:beam]</string>
+				<string>discover 1 fallback [app:us.zoom.xos][trigger:single][cursors:beam, arrow][role:AXLink][subrole:AXTextLink][parents:AXLink, AXWindow, AXApplication, AXScrollArea, AXTextArea, AXSplitGroup]</string>
 			</array>
 		</dict>
 	</dict>
@@ -130,10 +909,14 @@
 	<dict>
 		<key>:ACI0:</key>
 		<string>com.pixelmatorteam.pixelmator</string>
+		<key>:BxBjCgKBQCAQBAQCgUBQxg0:</key>
+		<string>com.googlecode.iterm2</string>
 		<key>:BxBjCgKBQFBUKhUFgUBQxg0:</key>
 		<string>com.googlecode.iterm2</string>
 		<key>:CQx8iBAhQoSIsYCCiLCBAA0:</key>
 		<string>com.microsoft.Excel</string>
+		<key>:CREQcKAgIug9Cj5E+KB4L4gIGxwQAA0:</key>
+		<string>com.apple.iWork.Numbers</string>
 		<key>:CRLGchpDgQIFChREqBBBgQIFCmM5jQE0:</key>
 		<string>com.apple.Terminal</string>
 		<key>:CRQQcPDx9x8HDhw4cODAgQMHjv/++OCAAA0:</key>
@@ -146,12 +929,16 @@
 		<string>com.google.Chrome</string>
 		<key>:DA5AgDuojqqoiqqr2oAJKIACaIAMiH80:</key>
 		<string>com.phaseone.captureone13</string>
+		<key>:DA7wgBAEIkABGIZhGIACJEAEAgCYAQQ0:</key>
+		<string>com.figma.Desktop</string>
 		<key>:DAmAABR/FkABGEB/BhSAAA0:</key>
 		<string>com.microsoft.Excel</string>
 		<key>:Dg7gAUgAEoAEIMHPHwAGgD8/SAASgAQgAXgA0:</key>
 		<string>com.microsoft.Excel</string>
 		<key>:DhEBwAGQAMQAwYBAIGAIYAKwgEcYEAFkAAnAAWAACAA0:</key>
 		<string>com.apple.Safari</string>
+		<key>:DhEBwAHQAMQAw4BgIGAIYAKwgUccEAFkAA3AASAACAA0:</key>
+		<string>com.figma.Desktop</string>
 		<key>:DhEBwAHQAMQAwYBgIGAIYAKwwEccEAEkAA1AASAACAA0:</key>
 		<string>com.google.Chrome</string>
 		<key>:EBDAA0ACQAJAAlAKXDp2bgPAA8B2blw6WBpAAkACQALAAw0:</key>
@@ -164,8 +951,24 @@
 		<string>com.tinyspeck.slackmacgap</string>
 		<key>:EBMYAAQAUABYALANNBC2TfGt9i/9f/2/+L/6v/Rf4A/gL1AoIBdACA0:</key>
 		<string>com.microsoft.Excel</string>
+		<key>:EQkgCGAwsK4wdzYo2NwZ6xoYDCAIAA0:</key>
+		<string>com.apple.iWork.Numbers</string>
 		<key>:EhIAA8ByADQCzRY0W8FtwrYt+Lft/3T/pa8WvBrgvwB/APwFKBRALgBCAA0:</key>
 		<string>com.microsoft.Excel</string>
+		<key>:EhLgAWAYQJ6AhAQKFBSgUIBCAQoFKChQICEBeQgYRoAnAgARAIgAQAEAAg0:</key>
+		<string>com.apple.ScreenSharing</string>
+		<key>:EhUADwDkAZ4ESBIgyYMkCZIkSJIgSdIAmANgCIABAAoASAAgAoAwAIIBBAwY4DwAHAA0:</key>
+		<string>com.apple.Safari</string>
+		<key>:ExMDADgAQAMAMgAQg4AwDgTbIHAEAXfIv07b3W4APHY34OoA3AFADAA2AOAAAAIA0:</key>
+		<string>com.apple.iWork.Numbers</string>
+		<key>:FheABwD8D4D/B/DAAw7AgQNwYAAYHAAOAwDDAMBwADgYAAYGwIEDcMADD+D/B/D/A+DhAQBwAAA4AAAcAAAOAAAB0:</key>
+		<string>com.apple.Safari</string>
+		<key>:FxYAAAkAwA8A8A8A/AsA7wUA7wJwLwB8LwA/C8A/AvDPAPwjAP8IwD8C8I8A+CEAfggAPwKAHwAANwAQBgBwAAAA0:</key>
+		<string>com.apple.Safari</string>
+		<key>:HBD+/w8wAIABAQAQEAAAwQEAkBsAAIfh/xAYHg+B4fEQGB4PgQEAcBgAALkBABAcAAABAwAY4P//AA0:</key>
+		<string>com.gifox.gifox</string>
+		<key>:HBwAPwAA/A8A8MADgANwABwADsAAwAAGDBhgwIABAwwQMMAAA8P/MDD8DwMDDDAwwAADBgwYYMCAAQwADMAB4AA4AA8AD/wBwP84APADBwAA4AAAABwAAIADAABwAAAADgAAwA0:</key>
+		<string>com.apple.Safari</string>
 		<key>:Li4AAPgHAAAA4P8fAAAA/v8fAADg//8fAAD8//8PAMD///8PAPj///8HAP////8D4P////8B+P///38A/////z/g/////x/4/////wf//////8P/P/j///j/A/j/f/5/OPz/n/+fP///5//jjv///f+85////z+D+f///897/v///+OO//////nz////fzj8////PwD+////Pxj///v//4//f/7//8f/n////+P/5/////n/8f////8//P////8P/v////+B/////3/A/////w/g/////wH4////fwD8////DwD+////AQD///8/AAD///8DAID//38AAID//wcAAID/fwAAAAD+AQAA0:</key>
 		<string>com.apple.Safari</string>
 	</dict>
