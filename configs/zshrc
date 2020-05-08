@@ -1,4 +1,5 @@
 export ZPLUG_HOME=$(brew --prefix)/opt/zplug
+export ASDF_DIR=$(brew --prefix asdf)
 source $ZPLUG_HOME/init.zsh
 
 zplug "mafredri/zsh-async"
@@ -49,10 +50,6 @@ setopt histignoredups
 export EDITOR=nvim
 
 source $HOME/.zsh/aliases.zsh
-
-# Initialize ASDF
-[ -d $HOME/.asdf ]  && source $HOME/.asdf/asdf.sh
-[ -d $HOME/.asdf ]  && source $HOME/.asdf/completions/asdf.bash
 
 export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 

@@ -1,12 +1,19 @@
 #!/usr/bin/env bash
 
 login_items=(
-  "Alfred 3.app"
-  "Bartender.app"
+  "Alfred 4.app"
+  "Bartender 3.app"
   "KeepingYouAwake.app"
   "Divvy.app"
   "Dropbox.app"
   "Sip.app"
+  "Gifox.app"
+  "Haptic Touch Bar.app"
+  "Karibiner-Elements.app"
+  "Keybase.app"
+  "Muzzle.app"
+  "PopClip.app"
+  "Rocket.app"
 )
 
 for item in "${login_items[@]}"; do
