@@ -127,3 +127,7 @@ let $NVIM_TUI_ENABLE_CURSOR_SHAPE = '1'
 
 " Rely on lightline for mode
 set noshowmode
+
+" Use bash to shell out from Vim (to speed up navigation when using tmux
+" Source: https://github.com/christoomey/vim-tmux-navigator/issues/72#issuecomment-123374188
+set shell=/bin/bash\ -i

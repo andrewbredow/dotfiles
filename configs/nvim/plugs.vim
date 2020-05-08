@@ -22,6 +22,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-ragtag' " Tag completion
+Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-fugitive'
 Plug 'itchyny/lightline.vim'
 Plug 'danro/rename.vim'
