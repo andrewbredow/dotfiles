@@ -1,3 +1,4 @@
 /configs/nvim/plugged/*
-install.out
+/install.out
 /preferences/popclip/Logs
+/configs/karabiner/automatic_backups
