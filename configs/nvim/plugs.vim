@@ -5,9 +5,9 @@ Plug 'chriskempson/base16-vim'
 Plug 'andrewbredow/vim-base16-lightline'
 
 " Custom Syntaxes
-Plug 'elixir-lang/vim-elixir'
-Plug 'ElmCast/elm-vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'davidoc/taskpaper.vim'
+Plug 'AndrewRadev/inline_edit.vim'
 
 " Basic Editar Customizations
 Plug 'AndrewRadev/splitjoin.vim'
