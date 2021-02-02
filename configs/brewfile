@@ -1,8 +1,8 @@
-tap 'homebrew/cask-fonts'
 tap 'heroku/brew'
 
 brew 'autoconf'
 brew 'asdf'
+brew 'exa'
 brew 'fd'
 brew 'findutils'
 brew 'fzf'
@@ -17,34 +17,24 @@ brew 'nvim'
 brew 'postgresql'
 brew 'redis'
 brew 'the_silver_searcher'
+brew 'tldr'
 brew 'tmux'
 brew 'wget'
 brew 'zsh'
 
 cask_args appdir: '/Applications'
-#cask '1password'
 cask 'alfred'
-cask 'arq'
+cask 'arq5'
 cask 'bartender'
-cask 'calibre'
-cask 'disk-inventory-x'
 cask 'divvy'
-cask 'firefox'
-cask 'google-chrome'
 cask 'gpg-suite'
 cask 'handbrake'
-cask 'haptic-touch-bar'
 cask 'karabiner-elements'
 cask 'keepingyouawake'
-cask 'keybase'
-cask 'kindle'
-cask 'kitty'
 cask 'macdown'
-cask 'muzzle'
 cask 'popclip'
 cask 'rocket'
 cask 'slack'
-cask 'spotify'
 cask 'the-unarchiver'
 
 cask 'font-cascadia'
@@ -54,11 +44,9 @@ cask 'font-iosevka'
 
 mas 'Airmail 3', id: 918858936
 mas 'Bear', id: 1091189122
-mas 'Better Blocker', id: 1121192229
 mas 'Gifox', id: 1082624744
 mas 'Pixelmator', id: 407963104
 mas 'Sip', id: 507257563
 mas 'Things 3', id: 904280696
-mas 'Rested', id: 421879749
 mas 'Paprika Recipe Manager 3', id: 1303222628
 
