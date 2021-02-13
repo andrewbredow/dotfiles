@@ -1,46 +1,5 @@
-[user]
-  useconfigonly = true
-	name = Andrew Bredow
-	email = andrewbredow@github.com
-	signingkey = 30DF8799A3A27880
-[github]
-  user = andrewbredow
-[color]
-  ui = true
-[core]
-  excludesfile = ~/.config/git/ignore
-[alias]
-  co = checkout
-  br = branch
-  ci = commit -v
-  st = status
-  mt = mergetool
-  rb = rebase
-  lg = log --graph --pretty=format:'%Cred%h%Creset - %Cblue[%an]%Creset%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-[merge]
-  tool = diffmerge
-[mergetool "diffmerge"]
-  cmd = diffmerge --merge\n--result=$MERGED $LOCAL $BASE $REMOTE
-  trustExitCode = true
-[diff]
-  tool = diffmerge
-[difftool "diffmerge"]
-  cmd = diffmerge $LOCAL $REMOTE
-[mergetool]
-  keepBackup = false
-[push]
-  default = current
-[commit]
-  template = ~/.config/git/commit_template
-	gpgsign = true
-[credential]
-	helper = osxkeychain
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-[pull]
-	ff = only
-[init]
-	defaultBranch = main
+[include]
+  path = default.config
+
+[includeIf "gitdir:**/github/**/.git"]
+  path = github.config
