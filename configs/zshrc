@@ -1,12 +1,14 @@
 source ~/.zplug/init.zsh
 
 PURE_GIT_PULL=0
+export asdf_dir=$(brew --prefix asdf)
 
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-history-substring-search", defer:3
 zplug "chriskempson/base16-shell", defer:0
+zplug "kiurchv/asdf.plugin.zsh", defer:2
 
 # Check for uninstalled plugins.
 if ! zplug check --verbose; then
@@ -44,16 +46,10 @@ setopt histignoredups
 
 export EDITOR=nvim
 
-source $HOME/.zsh/aliases.zsh
-
-export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
-
-# Set up FZF
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
-if [ -x "$(command -v brew)" ]; then
-  # Initialize asdf
-  source $(brew --prefix asdf)/asdf.sh
-fi
+export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
+
+source $HOME/.zsh/aliases.zsh
+
