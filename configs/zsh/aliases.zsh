@@ -1,7 +1,7 @@
 # Projects
 alias dotfiles='cd /Users/andrew/src/dotfiles'
 alias github='cd /Users/andrew/src/github'
-alias sail='cd /Users/andrew/src/sailplan/sailboat-guide'
+alias sail='cd /Users/andrew/src/sailboat-guide'
 
 # Local tmux
 alias t='tmux'
