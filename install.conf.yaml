@@ -15,6 +15,7 @@
     ~/.config/git: configs/git
     ~/.config/nvim: configs/nvim
     ~/.config/karabiner: configs/karabiner
+    ~/.config/kitty/kitty.conf: configs/kitty/kitty.conf
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
