@@ -34,8 +34,8 @@ Plug 'tpope/vim-bundler'
 
 " Build Tools
 Plug 'tpope/vim-dispatch'
-Plug 'benekastah/neomake'
 Plug 'janko-m/vim-test'
+Plug 'dense-analysis/ale'
 
 " Searching
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
