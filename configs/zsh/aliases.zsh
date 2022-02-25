@@ -63,3 +63,7 @@ alias dark='base16_summerfruit-dark'
 # Exa
 # https://github.com/ogham/exa
 alias ls='exa'
+
+# Docker
+alias dc='docker compose'
+alias de='docker compose exec'

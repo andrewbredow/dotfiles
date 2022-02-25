@@ -53,3 +53,6 @@ export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 
 source $HOME/.zsh/aliases.zsh
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+. /usr/local/opt/asdf/asdf.sh
