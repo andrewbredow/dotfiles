@@ -53,6 +53,6 @@ export PATH=./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/opt/bin:$PATH
 
 source $HOME/.zsh/aliases.zsh
 
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-. /usr/local/opt/asdf/asdf.sh
+
+export SSH_AUTH_SOCK=/Users/andrew/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
