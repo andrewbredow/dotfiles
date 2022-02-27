@@ -7,14 +7,14 @@ brew 'fd'
 brew 'findutils'
 brew 'fzf'
 brew 'git'
-brew 'gpg-suite'
+brew 'gpg'
 brew 'heroku'
 brew 'libyaml'
 brew 'mas'
-brew 'mysql'
 brew 'node'
 brew 'npm'
 brew 'nvim'
+brew 'pinentry-mac'
 brew 'postgresql'
 brew 'redis'
 brew 'the_silver_searcher'
@@ -24,10 +24,7 @@ brew 'wget'
 brew 'zsh'
 
 cask_args appdir: '/Applications'
-cask 'alfred'
-cask 'arq5'
 cask 'bartender'
-cask 'divvy'
 cask 'handbrake'
 cask 'karabiner-elements'
 cask 'keepingyouawake'
@@ -38,16 +35,11 @@ cask 'rocket'
 cask 'slack'
 cask 'the-unarchiver'
 
-cask 'font-cascadia'
-cask 'font-fira-code'
-cask 'font-hasklig'
-cask 'font-iosevka'
-
 mas 'Airmail 3', id: 918858936
 mas 'Bear', id: 1091189122
 mas 'Gifox', id: 1082624744
-mas 'Pixelmator', id: 407963104
 mas 'Sip', id: 507257563
 mas 'Things 3', id: 904280696
 mas 'Paprika Recipe Manager 3', id: 1303222628
-
+mas 'Maccy', id: 1527619437
+mas 'Moom', id: 419330170
