@@ -19,6 +19,7 @@
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
     ~/.gitconfig: configs/git/config # Legacy git
+    ~/.gnupg/gpg-agent.conf: configs/gpg-agent.conf
     ~/.irbrc: configs/irbrc
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
@@ -31,9 +32,6 @@
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
-    ~/Library/Preferences/com.mizage.direct.Divvy.plist:
-      force: true
-      path: preferences/com.mizage.direct.Divvy.plist
     ~/Library/Preferences/com.pilotmoon.popclip.plist:
       force: true
       path: preferences/com.pilotmoon.popclip.plist
@@ -45,9 +43,6 @@
       path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
-  # - description: Set Mac defaults
-  #   command: bin/macos.sh
-
   - description: Hush the last login prompt
     command: touch ~/.hushlogin
 
@@ -55,8 +50,9 @@
     command: mkdir -p ~/src
 
   - description: Install Homebrew
+    stdin: true
     command: |
-      if [[ "$OSTYPE" == "darwin"* ]]; then
+      if [[ "$OSTYPE" == "darwin"* && -z "$(command -v brew)" ]]; then
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       fi
 
@@ -65,15 +61,6 @@
       if [[ "$OSTYPE" == "darwin"* ]]; then
         brew bundle --global
       fi
-
-  ## Todo: Install heroku plugins: heroku-accounts, heroku-pg-extras
-
-  # - description: Install login items
-  #   command: |
-  #     if [[ "$OSTYPE" == "darwin"* ]]; then
-  #       bin/login-items.sh
-  #     fi
-  #   stdout: false
 
   - description: Set shell to zsh
     command: |
@@ -97,6 +84,9 @@
       }
       asdf plugin list | grep -q nodejs || {
         asdf plugin add nodejs
+      }
+      asdf plugin list | grep -q python || {
+        asdf plugin add python
       }
 
   - description: Install ASDF runtimes
