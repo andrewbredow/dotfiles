@@ -1,5 +1,5 @@
 [include]
   path = default.config
 
-[includeIf "gitdir:**/github/**/.git"]
-  path = github.config
+[includeIf "gitdir:**/loyal/**/.git"]
+  path = loyal.config
