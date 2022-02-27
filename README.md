@@ -2,7 +2,8 @@
 
 1. Install submodules
 2. Sign in to app store
-3. ./install
+3. Make sure versions in `configs/asdf/tool-versions` is up-to-date
+4. ./install
 
 ## Other Setup
 
