@@ -1,3 +1,2 @@
-ruby 3.1.1
-nodejs 17.6.0
-python 3.10.2
+ruby 3.2.x
+nodejs 20.3.x
