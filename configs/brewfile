@@ -9,6 +9,7 @@ brew 'fzf'
 brew 'git'
 brew 'gpg'
 brew 'heroku'
+brew 'jordanbaird-ice'
 brew 'libyaml'
 brew 'mas'
 brew 'node'
@@ -24,7 +25,6 @@ brew 'wget'
 brew 'zsh'
 
 cask_args appdir: '/Applications'
-cask 'bartender'
 cask 'handbrake'
 cask 'karabiner-elements'
 cask 'keepingyouawake'
@@ -35,7 +35,6 @@ cask 'rocket'
 cask 'slack'
 cask 'the-unarchiver'
 
-mas 'Airmail 3', id: 918858936
 mas 'Bear', id: 1091189122
 mas 'Gifox', id: 1082624744
 mas 'Sip', id: 507257563
