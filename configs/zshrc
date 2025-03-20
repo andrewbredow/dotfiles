@@ -60,10 +60,6 @@ export SSH_AUTH_SOCK=/Users/andrew/Library/Containers/com.maxgoedjen.Secretive.S
 # Added by Windsurf
 export PATH="/Users/andrew/.codeium/windsurf/bin:$PATH"
 
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
