@@ -60,9 +60,8 @@ alias dark='base16_harmonic-dark'
 alias light='base16_summerfruit-light'
 alias dark='base16_summerfruit-dark'
 
-# Exa
-# https://github.com/ogham/exa
-alias ls='exa'
+# Eza
+alias ls='eza'
 
 # Docker
 alias dc='docker compose'

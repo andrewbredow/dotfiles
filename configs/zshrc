@@ -1,14 +1,13 @@
 source ~/.zplug/init.zsh
 
 PURE_GIT_PULL=0
-export asdf_dir=$(brew --prefix asdf)
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-history-substring-search", defer:3
 zplug "chriskempson/base16-shell", defer:0
-zplug "kiurchv/asdf.plugin.zsh", defer:2
 
 # Check for uninstalled plugins.
 if ! zplug check --verbose; then
@@ -56,3 +55,8 @@ source $HOME/.zsh/aliases.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export SSH_AUTH_SOCK=/Users/andrew/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+# Added by Windsurf
+export PATH="/Users/andrew/.codeium/windsurf/bin:$PATH"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh

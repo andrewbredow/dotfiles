@@ -6,13 +6,11 @@
       stderr: true
       stdout: true
 
-- clean: ['~', '~/.config']
+- clean: ["~", "~/.config"]
 
 - link:
     ~/.agignore: configs/agignore
     ~/.asdfrc: configs/asdf/asdfrc
-    ~/.Brewfile: configs/brewfile
-    ~/.config/git: configs/git
     ~/.config/nvim: configs/nvim
     ~/.config/karabiner: configs/karabiner
     ~/.config/kitty/kitty.conf: configs/kitty/kitty.conf
@@ -26,7 +24,6 @@
     ~/.rspec: configs/rspec
     ~/.terminfo: configs/terminfo
     ~/.tmux.colors: configs/tmux.colors
-    ~/.tmux.conf: configs/tmux.conf
     ~/.tool-versions: configs/asdf/tool-versions
     ~/.vim: configs/nvim # Legacy vim
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
@@ -35,7 +32,7 @@
     ~/Library/Preferences/com.pilotmoon.popclip.plist:
       force: true
       path: preferences/com.pilotmoon.popclip.plist
-    '~/Library/Application Support/PopClip':
+    ~/Library/Application Support/PopClip':
       force: true
       path: preferences/popclip
     ~/Library/Preferences/net.matthewpalmer.Rocket.plist:
@@ -43,57 +40,60 @@
       path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
-  - description: Hush the last login prompt
-    command: touch ~/.hushlogin
+    - description: Hush the last login prompt
+      command: touch ~/.hushlogin
 
-  - description: Create the local working src folder
-    command: mkdir -p ~/src
+    - description: Create the local working src folder
+      command: mkdir -p ~/src
 
-  - description: Install Homebrew
-    stdin: true
-    command: |
-      if [[ "$OSTYPE" == "darwin"* && -z "$(command -v brew)" ]]; then
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      fi
+    - description: Install Homebrew
+      stdin: true
+      command: |
+        if [[ "$OSTYPE" == "darwin"* && -z "$(command -v brew)" ]]; then
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        fi
 
-  - description: Install system Brewfile
-    command: |
-      if [[ "$OSTYPE" == "darwin"* ]]; then
-        brew bundle --global
-      fi
+    - description: Install system Brewfile
+      command: |
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+          brew bundle --global
+        fi
 
-  - description: Set shell to zsh
-    command: |
-      grep -qxF "$(which zsh)" /etc/shells || echo "$(which zsh)" | sudo tee -a /etc/shells
-      chsh -s $(which zsh)
+    - description: Set shell to zsh
+      command: |
+        grep -qxF "$(which zsh)" /etc/shells || echo "$(which zsh)" | sudo tee -a /etc/shells
+        chsh -s $(which zsh)
 
-  - description: Install ZPlug
-    command: |
-      if [[ -d ~/.zplug ]] then
-        cd ~/.zplug
-        git fetch
-        git reset --hard origin/master
-      else
-        git clone https://github.com/zplug/zplug.git ~/.zplug
-      fi
+    - description: Install ZPlug
+      command: |
+        if [[ -d ~/.zplug ]] then
+          cd ~/.zplug
+          git fetch
+          git reset --hard origin/master
+        else
+          git clone https://github.com/zplug/zplug.git ~/.zplug
+        fi
 
-  - description: Install ASDF plugins
-    command: |
-      asdf plugin list | grep -q ruby || {
-        asdf plugin add ruby
-      }
-      asdf plugin list | grep -q nodejs || {
-        asdf plugin add nodejs
-      }
-      asdf plugin list | grep -q python || {
-        asdf plugin add python
-      }
+    - description: Install ASDF plugins
+      command: |
+        asdf plugin list | grep -q ruby || {
+          asdf plugin add ruby
+        }
+        asdf plugin list | grep -q nodejs || {
+          asdf plugin add nodejs
+        }
+        asdf plugin list | grep -q python || {
+          asdf plugin add python
+        }
+        asdf plugin update ruby
+        asdf plugin update nodejs
+        asdf plugin update python
 
-  - description: Install ASDF runtimes
-    command: cd && asdf install
+    - description: Install ASDF runtimes
+      command: cd && asdf install
 
-  - description: Install vim-plug
-    command: curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    - description: Install vim-plug
+      command: curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-  - description: Install vim plugins
-    command: nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall
+    - description: Install vim plugins
+      command: nvim -u ~/.config/nvim/plugs.vim +PlugInstall +qall
