@@ -11,6 +11,7 @@
 - link:
     ~/.agignore: configs/agignore
     ~/.config/nvim: configs/nvim
+    ~/.config/mise/config.toml: configs/mise/config.toml
     ~/.config/karabiner: configs/karabiner
     ~/.config/kitty/kitty.conf: configs/kitty/kitty.conf
     ~/.default-gems: configs/default-gems
