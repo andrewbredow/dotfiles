@@ -1,7 +1,6 @@
 tap 'heroku/brew'
 
 brew 'autoconf'
-brew 'asdf'
 brew 'eza'
 brew 'fd'
 brew 'findutils'

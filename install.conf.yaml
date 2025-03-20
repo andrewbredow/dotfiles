@@ -10,7 +10,6 @@
 
 - link:
     ~/.agignore: configs/agignore
-    ~/.asdfrc: configs/asdf/asdfrc
     ~/.config/nvim: configs/nvim
     ~/.config/karabiner: configs/karabiner
     ~/.config/kitty/kitty.conf: configs/kitty/kitty.conf
@@ -24,7 +23,6 @@
     ~/.rspec: configs/rspec
     ~/.terminfo: configs/terminfo
     ~/.tmux.colors: configs/tmux.colors
-    ~/.tool-versions: configs/asdf/tool-versions
     ~/.vim: configs/nvim # Legacy vim
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zsh: configs/zsh
@@ -73,24 +71,6 @@
         else
           git clone https://github.com/zplug/zplug.git ~/.zplug
         fi
-
-    - description: Install ASDF plugins
-      command: |
-        asdf plugin list | grep -q ruby || {
-          asdf plugin add ruby
-        }
-        asdf plugin list | grep -q nodejs || {
-          asdf plugin add nodejs
-        }
-        asdf plugin list | grep -q python || {
-          asdf plugin add python
-        }
-        asdf plugin update ruby
-        asdf plugin update nodejs
-        asdf plugin update python
-
-    - description: Install ASDF runtimes
-      command: cd && asdf install
 
     - description: Install vim-plug
       command: curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
