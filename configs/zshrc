@@ -7,7 +7,7 @@ zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "jimhester/per-directory-history"
 zplug "zsh-users/zsh-history-substring-search", defer:3
-zplug "chriskempson/base16-shell", defer:0
+zplug "chriskempson/base16-shell", from:github
 
 # Check for uninstalled plugins.
 if ! zplug check --verbose; then
