@@ -28,12 +28,6 @@
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
-    ~/Library/Preferences/com.pilotmoon.popclip.plist:
-      force: true
-      path: preferences/com.pilotmoon.popclip.plist
-    ~/Library/Application Support/PopClip':
-      force: true
-      path: preferences/popclip
     ~/Library/Preferences/net.matthewpalmer.Rocket.plist:
       force: true
       path: preferences/net.matthewpalmer.Rocket.plist
