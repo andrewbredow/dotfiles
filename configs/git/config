@@ -3,3 +3,5 @@
 
 [includeIf "gitdir:**/loyal/**/.git"]
   path = loyal.config
+[init]
+	defaultBranch = main

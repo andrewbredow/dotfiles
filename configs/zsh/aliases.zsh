@@ -66,3 +66,6 @@ alias ls='eza'
 # Docker
 alias dc='docker compose'
 alias de='docker compose exec'
+
+# pnpm
+alias pn='pnpm'
