@@ -10,6 +10,7 @@
 
 - link:
     ~/.agignore: configs/agignore
+    ~/.Brewfile: configs/brewfile
     ~/.config/nvim: configs/nvim
     ~/.config/mise/config.toml: configs/mise/config.toml
     ~/.config/karabiner: configs/karabiner
