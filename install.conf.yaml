@@ -29,9 +29,6 @@
     ~/.vimrc: configs/nvim/init.vim # Legacy vim
     ~/.zsh: configs/zsh
     ~/.zshrc: configs/zshrc
-    ~/Library/Preferences/net.matthewpalmer.Rocket.plist:
-      force: true
-      path: preferences/net.matthewpalmer.Rocket.plist
 
 - shell:
     - description: Hush the last login prompt
