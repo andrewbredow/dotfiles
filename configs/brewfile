@@ -23,6 +23,7 @@ brew 'wget'
 brew 'zsh'
 
 cask_args appdir: '/Applications'
+cask '1password-cli'
 cask 'handbrake'
 cask 'karabiner-elements'
 cask 'keepingyouawake'
@@ -34,8 +35,6 @@ cask 'slack'
 cask 'the-unarchiver'
 
 mas 'Bear', id: 1091189122
-mas 'Gifox', id: 1082624744
-mas 'Sip', id: 507257563
 mas 'Things 3', id: 904280696
 mas 'Paprika Recipe Manager 3', id: 1303222628
 mas 'Maccy', id: 1527619437

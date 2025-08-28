@@ -17,13 +17,14 @@
     ~/.config/kitty/kitty.conf: configs/kitty/kitty.conf
     ~/.default-gems: configs/default-gems
     ~/.gemrc: configs/gemrc
-    ~/.gitconfig: configs/git/config # Legacy git
+    ~/.config/git: configs/git
     ~/.gnupg/gpg-agent.conf: configs/gpg-agent.conf
     ~/.irbrc: configs/irbrc
     ~/.pryrc: configs/pryrc
     ~/.psqlrc: configs/psqlrc
     ~/.rspec: configs/rspec
     ~/.terminfo: configs/terminfo
+    ~/.tmux.conf: configs/tmux.conf
     ~/.tmux.colors: configs/tmux.colors
     ~/.vim: configs/nvim # Legacy vim
     ~/.vimrc: configs/nvim/init.vim # Legacy vim

@@ -12,9 +12,6 @@ login_items=(
   "Haptic Touch Bar.app"
   "Karibiner-Elements.app"
   "Keybase.app"
-  "Muzzle.app"
-  "PopClip.app"
-  "Rocket.app"
 )
 
 for item in "${login_items[@]}"; do
